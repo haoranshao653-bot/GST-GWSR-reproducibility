@@ -1,7 +1,8 @@
 """Training-only spatial CV: GST coarse screening, pure GWSR confirmation.
 
-Run this file in PyCharm. No final held-out predictions are made by this script.
-Dependencies: accompanying gst_v2.py, gst_gwsr_core.py and requirements.txt.
+No final held-out predictions are made by the selection stage before the
+selection record is frozen. Dependencies are the repository-local `gst_v2.py`,
+`gst_gwsr_core.py`, and the pinned `requirements.txt` environment.
 """
 from __future__ import annotations
 

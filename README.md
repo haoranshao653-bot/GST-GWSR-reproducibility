@@ -51,7 +51,7 @@ The validation script checks column names, finite values, positive response valu
 
 ## Environment
 
-Python 3.11–3.14 is supported by the recorded run. Create an isolated environment and install the pinned scientific dependencies:
+The recorded run used Python 3.14 on Windows. Create an isolated environment and install the pinned scientific dependencies:
 
 ```powershell
 python -m venv .venv

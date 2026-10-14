@@ -1,6 +1,6 @@
 # Reproducibility status at packaging time
 
-The public copy was checked on Windows with Python 3.14 in an isolated virtual environment. The installed verification environment reported NumPy 2.5.4, pandas 3.0.6, SciPy 1.18.1, scikit-learn 1.9.1, joblib 1.6.0, matplotlib 3.11.2, and gplearn 0.4.3.
+The public copy was checked on Windows with Python 3.14 in an isolated virtual environment. The locked verification environment is NumPy 2.5.4, pandas 3.0.6, SciPy 1.18.1, scikit-learn 1.9.1, joblib 1.6.0, matplotlib 3.11.2, PyYAML 6.0.3, and gplearn 0.4.3.
 
 Completed checks:
 

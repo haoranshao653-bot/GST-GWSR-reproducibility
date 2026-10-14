@@ -6,7 +6,7 @@ The experiment uses 1,024 deduplicated marine heat-flow stations from the IHFC s
 
 The public package includes `raw/IHFC.json`, a source metadata snapshot with DOI `10.5880/fidgeo.2024.014`, and `raw/china_provinces.geojson` for map context. Check the current terms of those providers before redistributing them in a public mirror. The raw IHFC metadata does not contain the final eight-predictor station table used by the model.
 
-The complete local archive contains `processed/heat_flow_stations.csv`; it is git-ignored in the public-safe release until the licenses of the source layers have been checked. The study used WGS 84 coordinates and predictors extracted from GEBCO, WGM2012, GlobSed v3, CRUST1.0, CAM2016Litho, the Curie-point-depth supplementary product, LITHO1.0, and the Smithsonian Global Volcanism Program. The repository does not redistribute those raster products. Their exact names, units, and extraction description are recorded in the manuscript's Section 3.1 and `docs/data_sources.md`.
+The repository includes `processed/heat_flow_stations.csv`, the exact 1,024-row table used by the recorded experiments. The study used WGS 84 coordinates and predictors extracted from GEBCO, WGM2012, GlobSed v3, CRUST1.0, CAM2016Litho, the Curie-point-depth supplementary product, LITHO1.0, and the Smithsonian Global Volcanism Program. Their exact names, units, and extraction description are recorded in the manuscript's Section 3.1 and `docs/data_sources.md`.
 
 Required columns:
 
