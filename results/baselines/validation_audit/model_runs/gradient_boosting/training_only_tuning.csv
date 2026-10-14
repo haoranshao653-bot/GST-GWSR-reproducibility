@@ -1,0 +1,3 @@
+﻿model,params,mean_test_score,std_test_score,rank_test_score,mean_fit_time,std_fit_time,mean_score_time,mean_spatial_cv_RMSE_log_heat_flow
+gradient_boosting,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 3, ""n_estimators"": 100}",-0.45642858974515454,0.2107985982781562,2,0.08707094192504883,0.0012795060860502079,0.0018720626831054688,0.45642858974515454
+gradient_boosting,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 3, ""n_estimators"": 100}",-0.4433444968176426,0.18596662149065044,1,0.08898671468098958,0.0002335630414305182,0.002035220464070638,0.4433444968176426

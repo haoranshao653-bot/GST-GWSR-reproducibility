@@ -1,0 +1,60 @@
+{
+  "configuration_fingerprint": "a91b463a6442786db1a8c644",
+  "model_id": "svr_rbf",
+  "display_name": "支持向量回归（RBF）",
+  "selected_parameters": {
+    "C": 1.0,
+    "epsilon": 0.05,
+    "gamma": "scale"
+  },
+  "complexity": {
+    "support_vector_count": 146,
+    "support_vector_fraction": 0.9182389937106918
+  },
+  "efficiency": {
+    "tuning_wall_seconds": 0.05350100016221404,
+    "tuning_cpu_seconds_main_process": 0.046875,
+    "tuning_peak_tracemalloc_mb": 0.08051204681396484,
+    "final_fit_wall_seconds": 0.004616899881511927,
+    "final_fit_cpu_seconds_main_process": 0.0,
+    "final_fit_peak_tracemalloc_mb": 0.049407958984375,
+    "prediction_wall_seconds": 0.0008541001006960869,
+    "prediction_cpu_seconds_main_process": 0.015625,
+    "prediction_peak_tracemalloc_mb": 0.005461692810058594,
+    "total_wall_seconds": 0.058972000144422054,
+    "search_candidate_count": 2,
+    "spatial_cv_fit_count": 6,
+    "parallel_workers": 1,
+    "memory_measurement_scope": "tracemalloc main process only; native and worker memory excluded",
+    "time_measurement_scope": "current run: spatial tuning + final fit + outer-test prediction",
+    "pipeline_elapsed_seconds": 0.060825500171631575,
+    "serialized_artifact_size_bytes": 11423
+  },
+  "diagnostics": {
+    "best_spatial_cv_RMSE_log_heat_flow": 0.45156000917341493,
+    "best_spatial_cv_score_std": 0.1271113634429172
+  },
+  "notes": {
+    "test_target_used_for_tuning": false,
+    "predictive_features": [
+      "topo",
+      "bouguer",
+      "sediment",
+      "moho",
+      "lab",
+      "cpd",
+      "lithos_km",
+      "volcano"
+    ],
+    "coordinates_as_predictors": false,
+    "inner_fold_scaling": "Feature StandardScaler and log-target StandardScaler are fitted separately inside every spatial CV training fold."
+  },
+  "artifact": {
+    "saved": true,
+    "path": "benchmark_stage\\_validation_smoke\\model_runs\\svr_rbf\\fitted_model.joblib",
+    "size_bytes": 11423,
+    "failure": null
+  },
+  "outer_test_metrics_written_here": false,
+  "outer_test_target_used_for_tuning": false
+}

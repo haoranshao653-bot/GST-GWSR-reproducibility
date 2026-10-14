@@ -1,0 +1,63 @@
+{
+  "configuration_fingerprint": "a91b463a6442786db1a8c644",
+  "model_id": "xgboost",
+  "display_name": "XGBoost",
+  "selected_parameters": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.05,
+    "max_depth": 2,
+    "n_estimators": 120,
+    "subsample": 0.8,
+    "n_jobs": 1
+  },
+  "complexity": {
+    "tree_count": 120,
+    "feature_count": 8
+  },
+  "efficiency": {
+    "tuning_wall_seconds": 0.3450412000529468,
+    "tuning_cpu_seconds_main_process": 0.34375,
+    "tuning_peak_tracemalloc_mb": 0.15151214599609375,
+    "final_fit_wall_seconds": 0.0242894000839442,
+    "final_fit_cpu_seconds_main_process": 0.015625,
+    "final_fit_peak_tracemalloc_mb": 0.03735637664794922,
+    "prediction_wall_seconds": 0.0015544998459517956,
+    "prediction_cpu_seconds_main_process": 0.0,
+    "prediction_peak_tracemalloc_mb": 0.010303497314453125,
+    "total_wall_seconds": 0.3708850999828428,
+    "search_candidate_count": 2,
+    "spatial_cv_fit_count": 6,
+    "parallel_workers": 1,
+    "memory_measurement_scope": "tracemalloc main process only; native and worker memory excluded",
+    "time_measurement_scope": "current run: spatial tuning + final fit + outer-test prediction",
+    "pipeline_elapsed_seconds": 0.37323769996874034,
+    "serialized_artifact_size_bytes": 15234
+  },
+  "diagnostics": {
+    "best_spatial_cv_RMSE_log_heat_flow": 0.42237705531889885,
+    "best_spatial_cv_score_std": 0.1460664878962148
+  },
+  "notes": {
+    "test_target_used_for_tuning": false,
+    "predictive_features": [
+      "topo",
+      "bouguer",
+      "sediment",
+      "moho",
+      "lab",
+      "cpd",
+      "lithos_km",
+      "volcano"
+    ],
+    "coordinates_as_predictors": false,
+    "inner_fold_scaling": "Feature StandardScaler and log-target StandardScaler are fitted separately inside every spatial CV training fold."
+  },
+  "artifact": {
+    "saved": true,
+    "path": "benchmark_stage\\_validation_smoke\\model_runs\\xgboost\\fitted_model.joblib",
+    "size_bytes": 15234,
+    "failure": null
+  },
+  "outer_test_metrics_written_here": false,
+  "outer_test_target_used_for_tuning": false
+}

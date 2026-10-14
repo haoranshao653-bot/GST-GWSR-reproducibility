@@ -1,0 +1,67 @@
+{
+  "configuration_fingerprint": "a91b463a6442786db1a8c644",
+  "model_id": "gwr",
+  "display_name": "经典地理加权回归（GWR）",
+  "selected_parameters": {
+    "adaptive_bandwidth_neighbors": 77.0,
+    "kernel": "bisquare",
+    "fixed": false,
+    "constant": true,
+    "spherical": false,
+    "bandwidth_selection": "training-only AICc"
+  },
+  "complexity": {
+    "local_coefficient_count": 1431,
+    "coefficient_surfaces": 9,
+    "effective_number_of_parameters": 23.95882373879279
+  },
+  "efficiency": {
+    "tuning_wall_seconds": 0.43900960008613765,
+    "tuning_cpu_seconds_main_process": 0.421875,
+    "tuning_peak_tracemalloc_mb": 0.18008899688720703,
+    "final_fit_wall_seconds": 0.054012499982491136,
+    "final_fit_cpu_seconds_main_process": 0.03125,
+    "final_fit_peak_tracemalloc_mb": 0.28948307037353516,
+    "prediction_wall_seconds": 0.004177500028163195,
+    "prediction_cpu_seconds_main_process": 0.0,
+    "prediction_peak_tracemalloc_mb": 0.049202919006347656,
+    "total_wall_seconds": 0.497199600096792,
+    "search_candidate_count": null,
+    "spatial_cv_fit_count": 0,
+    "parallel_workers": 1,
+    "memory_measurement_scope": "tracemalloc main process only; native and worker memory excluded",
+    "time_measurement_scope": "current run: training-only bandwidth search + final fit + outer-test prediction",
+    "pipeline_elapsed_seconds": 0.49844360002316535,
+    "serialized_artifact_size_bytes": 16308
+  },
+  "diagnostics": {
+    "training_AICc": 391.6883721565936,
+    "training_R2_scaled_log": 0.6248177355442953,
+    "training_adjusted_R2_scaled_log": 0.5577568069942609,
+    "sigma2": 0.5563775213503053
+  },
+  "notes": {
+    "test_target_used_for_tuning": false,
+    "predictive_features": [
+      "topo",
+      "bouguer",
+      "sediment",
+      "moho",
+      "lab",
+      "cpd",
+      "lithos_km",
+      "volcano"
+    ],
+    "coordinates_as_predictors": false,
+    "coordinate_role": "adaptive spatial kernel only",
+    "distance_metric": "Euclidean longitude/latitude degrees, matching GST-GWSR"
+  },
+  "artifact": {
+    "saved": true,
+    "path": "benchmark_stage\\_validation_smoke\\model_runs\\gwr\\fitted_model.joblib",
+    "size_bytes": 16308,
+    "failure": null
+  },
+  "outer_test_metrics_written_here": false,
+  "outer_test_target_used_for_tuning": false
+}

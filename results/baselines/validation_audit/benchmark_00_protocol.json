@@ -1,0 +1,66 @@
+{
+  "configuration_fingerprint": "a91b463a6442786db1a8c644",
+  "split_sha256": "4122ba6d5eeed1ac6373bb5ff2725ec8a7eca3c7600ea344496204fe4eef3e78",
+  "benchmark_config": {
+    "output_dir": "benchmark_stage\\_validation_smoke",
+    "station_file": "<local-user-path>\\Desktop\\hiyangshuju\\qinxuelunwenfangfa\\heat_flow\\heat_flow_stations.csv",
+    "group_a_reference_file": "<local-user-path>\\Desktop\\GWSR修改\\gst_gwsr_stage2_warm_start\\stage2_01_baseline_full_predictions.csv",
+    "gst_reference_file": "<local-user-path>\\Desktop\\GWSR修改\\gst_gwsr_stage3_rescored_safe_transfer\\stage3_02_rescored_safe_transfer_predictions.csv",
+    "gst_summary_file": "<local-user-path>\\Desktop\\GWSR修改\\gst_gwsr_stage3_rescored_safe_transfer\\stage3_10_summary.json",
+    "split_seed": 42,
+    "model_seed": 42,
+    "test_size": 0.2,
+    "iqr_multiplier": 3.0,
+    "k_neighbors": 25,
+    "spatial_cv_blocks": 3,
+    "n_jobs": 1,
+    "bootstrap_repeats": 100,
+    "residual_moran_neighbors": 3,
+    "max_test_points": 12,
+    "max_train_samples": 160,
+    "smoke_test": true
+  },
+  "station_file": "<local-user-path>\\Desktop\\hiyangshuju\\qinxuelunwenfangfa\\heat_flow\\heat_flow_stations.csv",
+  "features": [
+    "topo",
+    "bouguer",
+    "sediment",
+    "moho",
+    "lab",
+    "cpd",
+    "lithos_km",
+    "volcano"
+  ],
+  "coordinates": [
+    "lon",
+    "lat"
+  ],
+  "target": "heat_flow",
+  "target_training_scale": "StandardScaler fitted on log(clean training heat_flow)",
+  "test_target_used_for_tuning": false,
+  "coordinate_use": "coordinates are excluded from the eight predictive features; they are used only by spatial CV and geographical models",
+  "distance_metric_primary": "Euclidean longitude/latitude degrees to match GST-GWSR",
+  "counts": {
+    "all": 1024,
+    "raw_train": 819,
+    "clean_train_full": 815,
+    "clean_train_used": 159,
+    "removed_train": 4,
+    "test": 12
+  },
+  "software_versions": {
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0",
+    "statsmodels": "0.14.6",
+    "mgwr": "2.2.1",
+    "spglm": "1.1.0",
+    "libpysal": "4.8.1",
+    "esda": "2.5.1",
+    "xgboost": "3.2.0",
+    "joblib": "1.5.3",
+    "matplotlib": "3.11.1",
+    "python": "3.14.0",
+    "platform": "Windows-10-10.0.19045-SP0"
+  }
+}

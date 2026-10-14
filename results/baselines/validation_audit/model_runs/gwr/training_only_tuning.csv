@@ -1,0 +1,2 @@
+﻿model,selection_method,adaptive_bandwidth_neighbors,criterion_value_AICc
+gwr,training-only AICc,77.0,391.6883721565936

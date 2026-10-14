@@ -1,0 +1,18 @@
+{
+  "protocol": "protected fixed outer split",
+  "input_schema": ["lon", "lat", "heat_flow", "topo", "bouguer", "sediment", "moho", "lab", "cpd", "lithos_km", "volcano"],
+  "outer_split": {"test_size": 0.2, "random_seed": 42, "training_rows": 819, "evaluation_rows": 205},
+  "training_cleaning": {"method": "3-IQR on outer-training heat_flow", "retained_rows": 815},
+  "kernel": "adaptive_bisquare",
+  "k": 45,
+  "gst_similarity": "distance + predictor-distribution similarity",
+  "alpha": 0.25,
+  "tau": 0.7,
+  "gp_seeds": [42, 123, 456],
+  "population_size": 1000,
+  "complete_generations": 20,
+  "adaptation_generations": 5,
+  "prediction_guard": "non-finite or unsafe standardized prediction -> local adaptive-bisquare weighted mean",
+  "test_responses_used_for_tuning": false,
+  "ensemble": "pointwise arithmetic mean of the three seed predictions"
+}

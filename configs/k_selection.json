@@ -1,0 +1,11 @@
+{
+  "candidates": [20, 25, 30, 35, 40, 45, 50, 55, 60],
+  "folds": 5,
+  "folding": "training-only spatial/random protocol recorded in results/k_selection_audit",
+  "seeds": [42, 123, 456],
+  "criterion": "pooled mean CV RMSE",
+  "selected_k": 45,
+  "outer_test_used": false,
+  "kernel": "adaptive_bisquare",
+  "guard": "same predefined prediction protection rule"
+}

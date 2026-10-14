@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "GST-GWSR reproducibility repository"
+message: "Please cite the accompanying GST-GWSR manuscript and the source datasets."
+type: software
+authors:
+  - name: "GST-GWSR authors"
+version: "1.0.0"
+date-released: 2026-10-14
+license: MIT

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.tmp
+*.log
+.pytest_cache/
+run_outputs/
+data/processed/*
+!data/processed/README.md
+!data/processed/manifest.json
+*.zip
+*.7z
+*.rar

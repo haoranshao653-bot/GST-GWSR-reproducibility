@@ -1,0 +1,329 @@
+{
+  "gwsr_reference": {
+    "display_name": "GWSR（A组参考）",
+    "selected_parameters": {},
+    "complexity": {
+      "scope": "historical reference"
+    },
+    "diagnostics": {},
+    "notes": {
+      "scope": "historical reference"
+    }
+  },
+  "gst_gwsr_reference": {
+    "display_name": "GST-GWSR（当前最佳参考）",
+    "selected_parameters": {},
+    "complexity": {
+      "scope": "historical reference"
+    },
+    "diagnostics": {},
+    "notes": {
+      "scope": "historical reference"
+    }
+  },
+  "ols_log": {
+    "display_name": "OLS（统一对数目标）",
+    "selected_parameters": {
+      "fit_intercept": true
+    },
+    "complexity": {
+      "coefficient_count": 9,
+      "intercept": -0.14475205966460197,
+      "coefficients": {
+        "topo": 0.7546614936807083,
+        "bouguer": -0.07355219970614321,
+        "sediment": 0.11085653236089561,
+        "moho": -0.30002107828712743,
+        "lab": -0.014656651807679888,
+        "cpd": -0.2703227697658899,
+        "lithos_km": 0.05215306902087768,
+        "volcano": 0.21892066218587342
+      }
+    },
+    "diagnostics": {},
+    "notes": {
+      "test_target_used_for_tuning": false,
+      "predictive_features": [
+        "topo",
+        "bouguer",
+        "sediment",
+        "moho",
+        "lab",
+        "cpd",
+        "lithos_km",
+        "volcano"
+      ],
+      "coordinates_as_predictors": false
+    }
+  },
+  "random_forest": {
+    "display_name": "全局随机森林",
+    "selected_parameters": {
+      "max_depth": null,
+      "max_features": 1.0,
+      "min_samples_leaf": 1,
+      "n_estimators": 200,
+      "n_jobs": 1
+    },
+    "complexity": {
+      "tree_count": 200,
+      "total_tree_nodes": 39768,
+      "mean_tree_depth": 16.01
+    },
+    "diagnostics": {
+      "best_spatial_cv_RMSE_log_heat_flow": 0.38554141187269836,
+      "best_spatial_cv_score_std": 0.12371469152344756
+    },
+    "notes": {
+      "test_target_used_for_tuning": false,
+      "predictive_features": [
+        "topo",
+        "bouguer",
+        "sediment",
+        "moho",
+        "lab",
+        "cpd",
+        "lithos_km",
+        "volcano"
+      ],
+      "coordinates_as_predictors": false,
+      "inner_fold_scaling": "Feature StandardScaler and log-target StandardScaler are fitted separately inside every spatial CV training fold."
+    }
+  },
+  "gradient_boosting": {
+    "display_name": "梯度提升回归树",
+    "selected_parameters": {
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "min_samples_leaf": 3,
+      "n_estimators": 100
+    },
+    "complexity": {
+      "tree_count": 100,
+      "total_tree_nodes": 1232,
+      "mean_tree_depth": 3.0
+    },
+    "diagnostics": {
+      "best_spatial_cv_RMSE_log_heat_flow": 0.4433444968176426,
+      "best_spatial_cv_score_std": 0.18596662149065044
+    },
+    "notes": {
+      "test_target_used_for_tuning": false,
+      "predictive_features": [
+        "topo",
+        "bouguer",
+        "sediment",
+        "moho",
+        "lab",
+        "cpd",
+        "lithos_km",
+        "volcano"
+      ],
+      "coordinates_as_predictors": false,
+      "inner_fold_scaling": "Feature StandardScaler and log-target StandardScaler are fitted separately inside every spatial CV training fold."
+    }
+  },
+  "xgboost": {
+    "display_name": "XGBoost",
+    "selected_parameters": {
+      "colsample_bytree": 0.8,
+      "learning_rate": 0.05,
+      "max_depth": 2,
+      "n_estimators": 120,
+      "subsample": 0.8,
+      "n_jobs": 1
+    },
+    "complexity": {
+      "tree_count": 120,
+      "feature_count": 8
+    },
+    "diagnostics": {
+      "best_spatial_cv_RMSE_log_heat_flow": 0.42237705531889885,
+      "best_spatial_cv_score_std": 0.1460664878962148
+    },
+    "notes": {
+      "test_target_used_for_tuning": false,
+      "predictive_features": [
+        "topo",
+        "bouguer",
+        "sediment",
+        "moho",
+        "lab",
+        "cpd",
+        "lithos_km",
+        "volcano"
+      ],
+      "coordinates_as_predictors": false,
+      "inner_fold_scaling": "Feature StandardScaler and log-target StandardScaler are fitted separately inside every spatial CV training fold."
+    }
+  },
+  "svr_rbf": {
+    "display_name": "支持向量回归（RBF）",
+    "selected_parameters": {
+      "C": 1.0,
+      "epsilon": 0.05,
+      "gamma": "scale"
+    },
+    "complexity": {
+      "support_vector_count": 146,
+      "support_vector_fraction": 0.9182389937106918
+    },
+    "diagnostics": {
+      "best_spatial_cv_RMSE_log_heat_flow": 0.45156000917341493,
+      "best_spatial_cv_score_std": 0.1271113634429172
+    },
+    "notes": {
+      "test_target_used_for_tuning": false,
+      "predictive_features": [
+        "topo",
+        "bouguer",
+        "sediment",
+        "moho",
+        "lab",
+        "cpd",
+        "lithos_km",
+        "volcano"
+      ],
+      "coordinates_as_predictors": false,
+      "inner_fold_scaling": "Feature StandardScaler and log-target StandardScaler are fitted separately inside every spatial CV training fold."
+    }
+  },
+  "gwr": {
+    "display_name": "经典地理加权回归（GWR）",
+    "selected_parameters": {
+      "adaptive_bandwidth_neighbors": 77.0,
+      "kernel": "bisquare",
+      "fixed": false,
+      "constant": true,
+      "spherical": false,
+      "bandwidth_selection": "training-only AICc"
+    },
+    "complexity": {
+      "local_coefficient_count": 1431,
+      "coefficient_surfaces": 9,
+      "effective_number_of_parameters": 23.95882373879279
+    },
+    "diagnostics": {
+      "training_AICc": 391.6883721565936,
+      "training_R2_scaled_log": 0.6248177355442953,
+      "training_adjusted_R2_scaled_log": 0.5577568069942609,
+      "sigma2": 0.5563775213503053
+    },
+    "notes": {
+      "test_target_used_for_tuning": false,
+      "predictive_features": [
+        "topo",
+        "bouguer",
+        "sediment",
+        "moho",
+        "lab",
+        "cpd",
+        "lithos_km",
+        "volcano"
+      ],
+      "coordinates_as_predictors": false,
+      "coordinate_role": "adaptive spatial kernel only",
+      "distance_metric": "Euclidean longitude/latitude degrees, matching GST-GWSR"
+    }
+  },
+  "mgwr": {
+    "display_name": "多尺度地理加权回归（MGWR）",
+    "selected_parameters": {
+      "bandwidths_by_coefficient": {
+        "Intercept": 70.0,
+        "topo": 34.0,
+        "bouguer": 54.0,
+        "sediment": 107.0,
+        "moho": 109.0,
+        "lab": 107.0,
+        "cpd": 113.0,
+        "lithos_km": 153.0,
+        "volcano": 71.0
+      },
+      "kernel": "bisquare",
+      "fixed": false,
+      "constant": true,
+      "spherical": false,
+      "bandwidth_selection": "training-only multiscale AICc backfitting"
+    },
+    "complexity": {
+      "local_coefficient_count": 1431,
+      "coefficient_surfaces": 9,
+      "effective_number_of_parameters": 23.4775552139917
+    },
+    "diagnostics": {
+      "training_AICc": 389.12593248422536,
+      "training_R2_scaled_log": 0.6276414758480482,
+      "training_adjusted_R2_scaled_log": 0.5626555337319622,
+      "training_backfit_reconstruction_RMSE_scaled_log": 0.6848237786396018
+    },
+    "notes": {
+      "test_target_used_for_tuning": false,
+      "predictive_features": [
+        "topo",
+        "bouguer",
+        "sediment",
+        "moho",
+        "lab",
+        "cpd",
+        "lithos_km",
+        "volcano"
+      ],
+      "coordinates_as_predictors": false,
+      "coordinate_role": "coefficient-specific adaptive spatial kernels",
+      "distance_metric": "Euclidean longitude/latitude degrees, matching GST-GWSR",
+      "out_of_sample_prediction": "mgwr 2.2.1 has no native out-of-sample MGWR.predict; predictions use training-only final backfitting partial targets and each selected coefficient bandwidth"
+    }
+  },
+  "gwrf": {
+    "display_name": "地理加权随机森林（GWRF）",
+    "selected_parameters": {
+      "k_neighbors": 25,
+      "max_features": "sqrt",
+      "min_samples_leaf": 1,
+      "n_estimators": 100,
+      "kernel": "Gaussian",
+      "bandwidth_selection": "training-only common spatial-block CV on stratified validation anchors"
+    },
+    "complexity": {
+      "local_model_count": 12,
+      "trees_per_local_model": 100,
+      "total_tree_count": 1200,
+      "total_tree_nodes": 36820,
+      "mean_tree_depth": 7.171666666666666,
+      "mean_feature_importance": {
+        "topo": 0.16659442044343023,
+        "bouguer": 0.12746420930861624,
+        "sediment": 0.07824426559981647,
+        "moho": 0.11811369459282027,
+        "lab": 0.14517588261236924,
+        "cpd": 0.14207630433702473,
+        "lithos_km": 0.10128238879743506,
+        "volcano": 0.1210488343084878
+      }
+    },
+    "diagnostics": {
+      "best_training_spatial_anchor_RMSE_log_heat_flow": 0.37369600230758787,
+      "training_anchor_count": 30,
+      "spatial_cv_blocks": 3
+    },
+    "notes": {
+      "test_target_used_for_tuning": false,
+      "predictive_features": [
+        "topo",
+        "bouguer",
+        "sediment",
+        "moho",
+        "lab",
+        "cpd",
+        "lithos_km",
+        "volcano"
+      ],
+      "coordinates_as_predictors": false,
+      "coordinate_role": "local-neighborhood and Gaussian weights",
+      "distance_metric": "Euclidean longitude/latitude degrees, matching GST-GWSR",
+      "implementation_scope": "auditable local geographically weighted random forest; not a claim of reproducing a specific third-party GRF package",
+      "tuning_protocol": "Each tuning anchor is predicted after excluding its entire common spatial CV block from the eligible local training neighborhood."
+    }
+  }
+}

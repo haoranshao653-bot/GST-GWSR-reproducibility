@@ -1,0 +1,15 @@
+name: gst-gwsr-reproducibility
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - joblib
+  - matplotlib
+  - pyyaml
+  - pip
+  - pip:
+      - gplearn==0.4.3

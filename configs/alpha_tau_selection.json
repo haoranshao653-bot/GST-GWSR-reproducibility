@@ -1,0 +1,11 @@
+{
+  "fixed_k": 45,
+  "alpha_grid": [0.0, 0.25, 0.5, 0.75, 1.0],
+  "tau_grid": [0.5, 0.7, 0.9],
+  "folds": 5,
+  "seeds": [42, 123, 456],
+  "criterion": "lowest mean training-only CV RMSE",
+  "selected": {"alpha": 0.25, "tau": 0.7},
+  "outer_test_used": false,
+  "similarity": "geographic distance + local predictor-distribution similarity"
+}
