@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SKIP_PARTS = {".git", ".venv", "run_outputs", "__pycache__"}
-SKIP_NAMES = {"heat_flow_stations.csv"}
+SKIP_NAMES = {"heat_flow_stations.csv", "MANIFEST.sha256"}
 
 
 def main() -> None:
