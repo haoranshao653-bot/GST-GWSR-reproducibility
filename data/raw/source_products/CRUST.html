@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+    <TITLE>Crustal Model CRUST1 page</TITLE>
+    </HEAD>
+    <BODY bgcolor="navy" text="white" link="pink" vlink=#ffa7a5>
+
+    <H1 align=center>CRUST 1.0     
+    </H1>
+    <H2 align=center>A New Global Crustal Model at 1x1
+     Degrees</h2>
+
+<hr>
+<H3 align=center> <it> Gabi Laske, Zhitu Ma, Guy
+Masters and Michael Pasyanos (LLNL)</it> </h3>
+
+<hr size=10>
+<font color="red">UPDATE (April 24, 25):</font> On 5/12/25, NOAA will decommission links to important datasets on their NCEI website that are relevant to CRUST1.0 as well as our sediment thickness map. Find an alternate link for the ocean crustal age database (Dietmar M&uuml; crustal age) at <a href=" https://www.earthbyte.org/age-spreading-rates-and-spreading-asymmetry-of-the-worlds-ocean-crust/" target="new">  https://www.earthbyte.org/age-spreading-rates-and-spreading-asymmetry-of-the-worlds-ocean-crust</a>.
+<br>
+
+Find an alternate link for the ocean sediment digital database at <a href="https://data.caltech.edu/records/k4070-ngc79" target="new">https://data.caltech.edu/records/k4070-ngc79</a>
+<br>
+<hr size=10>
+<br>
+
+<font color="white">UPDATE (January 19, 21):</font> Brian Chen and the Stanford Crustal Geophysics lab at share their Matlab script to draw a CRUST1.0 Moho depth contour plot. Get this script under the <a href=#smatlab>Stanford Matlab tag</a>. If this link does not work, simply scroll down to the "Matlab section".<br>
+<font color="white">UPDATE (June 26, 17):</font> Dr. Michael Bevis at OSU shares his Matlab scripts to read and work with CRUST1.0. Get his codes under the <a href=#matlab>Matlab tag</a>. If this link does not work, simply scroll down to the "Matlab section".<br>
+UPDATE (August 26, 15): Dr. Zhu and his group provides new platform-independent, easy-to-use visualization tools for CRUST1. Go to <a href=#visualization>visualization section</a>.<br>
+UPDATE (August 27, 14): XYZ files of crustal and sediment thickness now available as separate files. Go to <a href=#ready-files>ready files</a>.<br>
+UPDATE (November 16, 13): Surface wave code to calculate predictions for LITHO1.0 now provided. Go to <a href=#litho1>LITHO 1.0 section</a> for explanation.<br>
+UPDATE (August 27, 13): Model update. Go to <a href=#updates>updates</a> for explanation.<br>
+UPDATE (August 20, 13): Created "External links" section. Please contact Gabi for
+additional links that are useful to others.<br>
+UPDATE (August 16, 13): CRUST1.0 types released in add-on tar file. Please go to the <a href=#download>download section</a> for more info and the link to download the add-on.<br>
+<hr size=10>
+
+<hr size=10>
+<font color="white">UPDATE (July 15, 13):</font> CRUST1.0 is now released. Please go to the <a href=#download>download section</a> for more info
+and the link to download the model. <br>
+Please go to the <a href=#reference>reference section</a> for a suitable citation and the 2013 EGU poster.<br>
+<hr size=10>
+
+<font color="white">UPDATE (May 31, 13):</font> We are really close to release. Please check back within the
+next few weeks.<br>
+
+<font color="white">UPDATE (April 2, 12):</font> We are currently modifying our CRUST1.0
+proto-type model after testing revealed some inconsistencies with recent surface wave data.<br>
+<font color="yellow"> We expect release by August 2012</font>. A handout of the 2012 EGU
+poster can be <a href="crust1/laske-egu12-crust1.pdf">downloaded here</a>.<br>
+
+<!===============================================================================================================!>
+<h3> <font color="FFFF99"> Description of the model</font></h3>
+<p>
+This new model is specified on a 1x1 degree grid and incorporates an updated version of our 
+global <a href="http://igppweb.ucsd.edu/~gabi/sediment.html" target="new"> sediment thickness 
+</a>. </p>
+
+<p>
+Bathymetry and topography is that of ETOPO1 that can be downloaded at NOAA's <a href="http://www.ngdc.noaa.gov/mgg/global/global.html" target="new">NGDC</a>.
+<br>
+ETOPO1 is a 1-arc minute model of Earth's global relief, including surface topography and seafloor bathymetry. In ice-covered regions, "ice surface" and "bedrock" are given. From the ETOPO1 files, we derived topography, bathymetry and ice thickness in our new model by binning and averaging the ETOPO1 data in 1-degree cells. 
+</p>
+
+<p>
+The global crustal models CRUST5.1 and CRUST2.0 use type keys to assign 
+various <a href="http://igppweb.ucsd.edu/~gabi/crust/crust.types.gif" target="new"> 
+types of crustal structure </a> (such as Archean, early Proterozoic, rifts etc.)
+in each cell. In both these models, the crustal types were also used to assign 
+ice, sediment and crustal thickness.
+</p>
+
+<p>
+In CRUST1.0, the principal crustal types are adopted from CRUST5.1. But the crustal types are now aligned with the crustal age map of Artemieva and Mooney.  Additional crustal types mark specific tectonic settings, such as orogens, continental rifts, continental shelves and oceanic plateaus. CRUST1.0 also has a few new types, including one for very young (< 3 Myrs) oceans. In contrast to older models, the function of crustal types in CRUST1.0 is limited to assigning elastic parameters to layers in the crystalline crust.
+</p>
+
+<p>
+CRUST1.0 will consist of less than 40 crustal types. Each of the 1x1-degree cells will have a unique
+8-layer crustal profile where the layers are
+</p>
+
+<p align=center>
+<ol>
+<li> water
+<li> ice
+<li> upper sediments</li>
+<li> middle sediments</li>
+<li> lower sediments</li>
+<li> upper crust </li>  
+<li> middle crust </li> 
+<li> lower crust </li>      
+</ol>
+</p>
+Parameters V<sub>P</sub>, V<sub>S</sub> and rho are given explicitly for
+these 8 layers as well as the mantle below the Moho. The parameters below the Moho are determined using a modified version of the recent Pn model LLNL-G3Dv3 (for the LLNL model, see below under external links).
+<br>
+
+<hr>
+<h3> <font color="ffff99"> Global, Continental and Oceanic average </font></h3>
+<p>
+TBD
+<br>
+</p>
+PREM reference: Dziewonski, A.M. and Anderson, D.L., 1981. Preliminary reference Earth model. Phys. Earth Planet.
+Int., 25, 297-356.
+<hr>
+
+<!===============================================================================================================!>
+<h3> <font color="ffff99"> Why do we need an accurate crustal model? </font></h3>
+<p> 
+Seismic tomography has been extensively used in various forms to determine
+the three-dimensional velocity structure of the Earth's mantle. The data
+used in these studies are surface wave (waveforms and dispersion measurements)
+ and free oscillation (frequency shift) data as well
+as body wave travel times (arrival times from catalogues such as the ISC
+catalog and specially hand-picked long-period arrivals). For the majority of
+these studies, the crust has a significant impact on the observed seismic data but, at
+the same time, is too thin to be resolved by them. Most authors handle this by
+applying an assumed "crustal correction" to the data before an inversion
+for mantle structure. Since the inversion techniques can erroneously map
+crustal structure down to great depth (at least 250km), accurate crustal
+corrections to the data sets are extremely important. 
+</p>
+<p>
+Another aspect is the seismic monitoring of nuclear explosions. Key elements of
+the monitoring effort are location and size estimation. The location accuracy
+strongly depends on the chosen velocity model (i.e. crustal structure),
+especially when seismic sources lie
+outside the monitoring network. <br>
+Monitoring on regional scale includes the modelling
+of short-period surface waves and the propagation of Lg waves
+which are very sensitive to variations of crustal structure.
+Obviously, an accurate image of the Earth's crust would tremendously improve
+the understanding of wave propagation of such phases.
+With the volume of datasets 
+and the demand on resolving small-scale structures increasing, we found
+that the 2x2 degree model CRUST2.0 is no longer accurate enough. 
+</p>
+
+<!--
+CRUST1.0 differs from previous models in that:
+
+<ul>
+<li>
+The thickness and
+seismic/density structure of sedimentary basins is accounted for more completely.
+<li>
+The velocity structure of sedimentary basins is estimated using a significantly
+larger database of crustal structure.
+<li> 
+The compressional wave, shear wave, and
+density structure have been explicitly specified using newly available constraints
+from field and laboratory studies.
+<li>
+The use of statistics to predict crustal structure in areas without field
+measurements. The velocity structure of the crystalline crust and uppermost mantle
+is estimated from the
+<A HREF="http://igppweb.ucsd.edu/~gabi/crust/crust.keys.gif" target="new">
+statistical average of regions  </a>
+with a similar crustal age and
+tectonic setting.
+<li>
+The model is extremely transportable. The files provided are small ASCII files.
+The files are not compressed. We also provide Fortran 77 computer code to read the models.
+</ul>
+--!>
+
+<!===============================================================================================================!>
+<a name="updates">
+<hr>
+<h3><font color="ffff99">Updates:</font></h3>
+
+
+<p>
+<b>27 August 2013</b>
+<table>
+<tr>
+<td>The assignment of the continent/ocean boundary, was still loosely coupled to crustal types. In 136 cells along the
+coast, this erroneously led to the omission of water. The crustal profile then started below sea level after the
+bathymetry in ETOPO1 was added. In 7 cells, this meant a shift of 500 to 1140 m (see affected areas in the plot on the right). 
+We now add ETOPO1 directly into the model (see below under downloads). 
+<br>
+Three areas are forced to NOT have water even though they are below sea level: 
+Caspian Depression (several cells), Qattara Depression in Egypt (1 cell), Lake Eyre in Australia (1 cell). NB: The Dead Sea and Death Valley
+are both surrounded by high topography and therefore do not show up in CRUST1.0 as depressions.<br>
+The consequence of this change is that some costal areas now appear to be flooded even though the majority of the
+area within a 1-degree cell is land. This is because the average topography is negative. The change is minor, and we retain the name and
+version of the model.
+</td>
+<td>
+<a href="crust1/diff-th1.png"><img src="crust1/diff-th1.png" height=200></a>
+</td>
+</tr>
+</table>
+<a href="crust1.html">top</a>
+
+<!===============================================================================================================!>
+<a name="download">
+<hr>
+<h3><font color="ffff99">Download section:</font></h3>
+
+
+The model and  Fortran source code to read it is available here.
+The Fortran source code should compile with any Fortran 77 compiler.
+
+To download the compressed tar file, <A HREF="http://igppweb.ucsd.edu/~gabi/crust1/crust1.0.tar.gz" target="new">Click here</a>. Use
+gzip and then tar to extract the README, model files and 3 Fortran 77 routines. We expect to provide other software shortly.
+<br><br>
+For add-on that includes crustal type file <A HREF="http://igppweb.ucsd.edu/~gabi/crust1/crust1.0-addon.tar.gz" target="new">Click here</a>. Use gzip and then tar to extract readme-addon, 2 model files and a Fortran 77 routine similar to getCN1point.f. 
+<br><br>
+<a href="crust1.html">top</a>
+
+<!===============================================================================================================!>
+<a name="ready-files">
+<hr>
+<h3><font color="ffff99">Files ready for individual download:</font></h3>
+
+Here are some most-widely requested files in various formats ready for individual download:
+
+<ul>
+<li> Compressed xyz file of total crustal thickness (excl. water): <a href="crust1/crsthk.xyz.zip">click here</a></li>
+<li> Compressed xyz file of depth to Moho (with resp. to sea level): <a href="crust1/depthtomoho.xyz.zip">click here</a></li>
+<li> Compressed xyz file of sediment thickness (in km): <a href="crust1/sedthk.xyz.zip">click here</a></li>
+<li> Compressed xyz file of sediment thickness (in meters): <a href="crust1/sedthk-m.xyz.zip">click here</a></li>
+</ul>
+<a href="crust1.html">top</a>
+
+<!===============================================================================================================!>
+<a name="visualization">
+<hr>
+<h3><font color="ffff99">Visualization section:</font></h3>
+
+26 August 2015: A group at East China Normal University (chaired by Liangfeng Zhu) develop a web application, termed VisualCrust, to disseminate and visualize the CRUST 1.0 model on the Internet using the Google Earth web browser plug-in and its JavaScript API. Any computer that has the Google Earth plug-in installed can freely access this webpage. A demo of the use of VisualCrust is available 
+at <a href="http://www.visualearth.org/globalcrust10/crust10web/help/visualcrustdemo.rar">http://www.visualearth.org/globalcrust10/crust10web/help/visualcrustdemo.rar</a>. Download the compressed VisualCrustDemo.rar onto your computer and unzip, you will see the demo file: VisualCrustDemo.avi. Open the file you can see how VisualCrust works. Please find more info at VisualCrust website:
+<a href="http://www.visualearth.org/globalcrust10/crust10web/visualcrust10.html" target="new">http://www.visualearth.org/globalcrust10/crust10web/visualcrust10.html</a>. <br>
+<i>Note that this is an internet application. Consequently, an internet connection is needed, as well as the Google Earth and JavaScript API plugins! </i>
+
+<!===============================================================================================================!>
+<a name="litho1">
+<hr>
+<h3><font color="ffff99">LITHO 1.0 section:</font></h3>
+
+The model, input data, and some accompanying computer code will be distributed from here as we assemble and publish them. <br><br>
+Please follow <a href="litho1.0.html#surfcodes">this link</a> to the surface  wave section on the LITHO1.0 page
+or <a href="litho1.0.html">this link</a> to the top of the LITHO1.0 page.
+<br><br>
+<a href="crust1.html">top</a>
+
+<!--
+As part of the modeling for LITHO 1.0, a fast program for computing phase and group velocity for fundamental mode Rayleigh and Love waves was needed. The program mineos (versions of which exist at CIG) was modified to do this and is capable of high precision to high frequencies. Because we are modeling relatively long period surface waves, we needed a spherical Earth code that included self-gravitation. We also needed a code that could handle transverse isotropy. The code has been optimized to provide about 4 decimal places of precision in the group and phase velocities - this exceeds the precision of the data. <a href="http://igppweb.ucsd.edu/~gabi/litho1/minos_gv2.zip">download minos_gv2 here</a>.<br>
+Manuscript on group travel time data (submitted to BSSA) <a href="litho1/Rayleigh_draft2.pdf">download here</a><br>
+Manuscript on dispersion modeling (submitted to GJI) <a href="litho1/dispersion_draft.pdf">download here</a><br>
+--!>
+
+<!===============================================================================================================!>
+<a name="matlab">
+<hr>
+<h3><font color="ffff99">Matlab section:</font></h3>
+Dr. <a href="https://earthsciences.osu.edu/people/bevis.6" target="new">Michael Bevis at OSU </a> shares his Matlab scripts to read and work with CRUST1.0. His scripts may not match 100% with the original Fortran script that we provide above (see below). In addition, Michael's scripts let you determine Lame parameters (lambda, mu), Young's Modulus (E) and Poisson's ratio.
+<br><br>
+The <a href="crust1/bevis-files/README.txt">README text file</a>. The <a href="crust1/bevis-files/CRUST1_Matlab.zip">Matlab toolbox</a> (zip file). A <a href="crust1/bevis-files/queryCRUST1_transcript.pdf">transcript pdf file</a> to double-check results.
+<br><br>
+
+If the point (lat,lon) has two non-integer values then where will be one cell associated with that point. If one of the coordinates is integer, then it sits on an edge shared by two cells. If both coordinates are integer then it sits on a vertex or corner shared by four cells. In contrast, the Fortran code rounds down the latitude and longitude values and provides one cell only.
+<br><br>
+
+<!===============================================================================================================!>
+<a name="smatlab">
+<hr>
+<h3><font color="ffff99">Stanford Matlab section:</font></h3>
+Brian Chen and the <a href="https://crustal.stanford.edu/" target="new">Stanford Crustal Geophysics lab </a> share their Matlab script to create a Moho depth contour plot of any rectangular region on the Earth.  
+<br><br>
+Find the script under <a href="crust1/stanford-files/moho_depth_map.m">this link</a>. A prerequisite for using this code is that you already have an xyz file with the Moho depth (file name xyzcoords.moho.txt; please set your path within the script accordingly). This file is available in the section above (or <a href="crust1/depthtomoho.xyz.zip">this link</a>) but has to be unzipped and renamed accordingly. Note that this file is depth to Moho from sea level, not from the local surface (which we define as crustal thickness).
+<br><br>
+
+
+<!===============================================================================================================!>
+<a name="reference">
+<hr>
+<h3> <font color="ffff99">References for the model:</font></h3>
+
+Please refer to the REM web site if you use this model:
+<a href="http://igppweb.ucsd.edu/~gabi/rem.html" target="new">
+http://igppweb.ucsd.edu/~gabi/rem.html</a>&nbsp;or to<br>
+<br>
+Laske, G., Masters., G., Ma, Z. and Pasyanos, M., Update on CRUST1.0 - A 1-degree Global Model of Earth's Crust,
+Geophys. Res. Abstracts, 15, Abstract EGU2013-2658, 2013.<br>
+A handout of the 2013 EGU poster can be <a href="crust1/laske-egu13-crust1.pdf">downloaded here</a>
+
+<hr>
+<h3> <font color="ffff99">Other References:</font></h3>
+Artemieva, I.M. and Mooney, W.D., Thermal thickness and evolution of
+Precambrian lithosphere: A global study, J. Geophys. Res., 106, 16,387 - 166, 414, 2001.
+<br><br>
+<i>CRUST 2.0 was introduced in a 2000 AGU poster. The abstract is</i>:<br>
+Bassin, C., Laske, G. and Masters, G., The Current Limits of
+Resolution for Surface Wave Tomography in North America,
+EOS Trans AGU, 81, F897, 2000.
+<br><br>
+<i>A description of CRUST 5.1 can be found in</i>:<br>
+Mooney, Laske and Masters, CRUST 5.1: a global
+crustal model at 5x5 degrees, JGR, 103, 727-747, 1998.
+<br><br>
+<a href="crust1.html">top</a>
+
+
+<!===============================================================================================================!>
+<hr>
+<h3> <font color="ffff99"> Links to older models CRUST5.1 and CRUST2.0 </font></h3>
+
+Though we do not encourage to use the older models CRUST5.1 and CRUST2.0, the pages
+for these models will remain active without being updated.<br>
+Link to <a href="http://igppweb.ucsd.edu/~gabi/crust.html">CRUST5.1</a><br>
+Link to <a href="http://igppweb.ucsd.edu/~gabi/crust2.html">CRUST2.0</a> 
+
+<!===============================================================================================================!>
+<hr>
+<h3> <font color="ffff99">External links:</font></h3>
+
+<p>
+20 August 2013: A group at the Sandia and Los Alamos National Laboratories develop 3D tomographic models of the crust and mantle. As part of this, the group developed a model parameterization on software support library for 3D Earth models. Their software distribution now includes CRUST1.0. Please find more info
+at their GEOTESS website at <a href="http://www.sandia.gov/geotess" target="new">www.sandia.gov/geotess</a>.
+</p>
+
+<p>
+<b>LLNL-G3Dv3</b><br>
+Reference: 
+Simmons, N.A, S.C. Myers, G. Johannesson and E. Matzel (2012), LLNL-G3Dv3: Global P wave tomography model for improved regional and teleseismic travel time prediction, J. Geophys. Res., 117, http://dx.doi.org/10.1029/2012JB009525.<br>
+Link:
+Download the LLNL-G3D model from the IRIS website:
+<a href="http://www.iris.edu/dms/products/emc-llnl-g3dv3" target="new">http://www.iris.edu/dms/products/emc-llnl-g3dv3</a>
+</p>
+
+<a href="crust1.html">top</a>
+
+
+
+<!--
+<table border>
+<tr><td><b>CRUST 2.0 GOOGLE EARTH KMZ FILES</b></td></tr>
+<tr><td><a href="crust/CRUST2.0.kmz">crustal thickness</a></td></tr>
+</table>
+--!>
+
+<!===============================================================================================================!> 
+<hr>
+<h3> <font color="ffff99">Funding:</font></h3>
+
+<p> This research has been fully or partially funded through the following NSF grants: EAR-03-36864; EAR-12-15542; EAR-14-15763
+</p>
+
+<!--------WEB PAGE FOOTNOTE -------------------->
+
+<a name="bottom">
+    <HR size=5></a>
+Go back to <br>
+<A HREF="http://igppweb.ucsd.edu/~gabi/rem.dir/rem.home.html" target="main" > REM page </A><br>
+<A HREF="http://igppweb.ucsd.edu/~gabi/rem.dir/crust/rem.crust.html" target="main"> REM Crust page </A><br>
+<hr>
+    <ADDRESS>Gabi Laske (<A HREF="Mailto:glaske&#64;ucsd.edu"> glaske&#64;ucsd.edu</a>)
+    </ADDRESS>
+<A HREF="http://igppweb.ucsd.edu/~gabi" target="new"> Gabi's home page </A><br>
+<A HREF="http://igppweb.ucsd.edu/~guy" target="new"> Guy's home page </A>
+    <HR>
+    <HR size=10 width=50%>
+    <HR>
+    
+    </BODY>
+    </HTML>

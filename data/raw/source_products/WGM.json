@@ -1,0 +1,504 @@
+[
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          3
+        ]
+      ],
+      "date-time": "2024-03-03T06:40:03Z",
+      "timestamp": 1709448003988
+    },
+    "reference-count": 0,
+    "publisher": "Natural Resources Canada/CMSS/Information Management",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              1991,
+              7,
+              1
+            ]
+          ],
+          "date-time": "1991-07-01T00:00:00Z",
+          "timestamp": 678326400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 181,
+        "URL": "https://open.canada.ca/en/open-government-licence-canada"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          1991
+        ]
+      ]
+    },
+    "DOI": "10.4095/132240",
+    "type": "report",
+    "created": {
+      "date-parts": [
+        [
+          2010,
+          11,
+          25
+        ]
+      ],
+      "date-time": "2010-11-25T17:12:52Z",
+      "timestamp": 1290705172000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Bouguer gravity anomaly map of the World"
+    ],
+    "prefix": "10.4095",
+    "author": [
+      {
+        "name": "Geological Survey of Canada",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "2571",
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          3
+        ]
+      ],
+      "date-time": "2024-03-03T06:18:51Z",
+      "timestamp": 1709446731000
+    },
+    "score": 25.453938,
+    "resource": {
+      "primary": {
+        "URL": "https://ostrnrcan-dostrncan.canada.ca/handle/1845/131868"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          1991
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.4095/132240",
+    "published": {
+      "date-parts": [
+        [
+          1991
+        ]
+      ]
+    }
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          18
+        ]
+      ],
+      "date-time": "2026-03-18T06:59:24Z",
+      "timestamp": 1773817164470,
+      "version": "3.50.1"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 11,
+    "publisher": "Springer International Publishing",
+    "isbn-type": [
+      {
+        "value": "9783319023700",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2016-01-01T00:00:00Z",
+          "timestamp": 1451606400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-319-02370-0_45-1",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          6,
+          15
+        ]
+      ],
+      "date-time": "2016-06-15T13:20:36Z",
+      "timestamp": 1465996836000
+    },
+    "page": "1-9",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Gravity Anomalies"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "Georges",
+        "family": "Balmino",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Sylvain",
+        "family": "Bonvalot",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          10
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "45-1_CR1",
+        "volume-title": "ETOPO1,1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis",
+        "author": "C Amante",
+        "year": "2009",
+        "unstructured": "Amante, C., and Eakins, B. W., 2009. ETOPO1,1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis. Boulder, CO: NOAA Technical Memorandum NESDIS NGDC-24."
+      },
+      {
+        "key": "45-1_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "499",
+        "DOI": "10.1007/s00190-011-0533-4",
+        "volume": "86",
+        "author": "G Balmino",
+        "year": "2012",
+        "unstructured": "Balmino, G., Vales, N., Bonvalot, S., and Briais, A., 2012. Spherical harmonic modelling to ultra-high degree of Bouguer and isostatic anomalies. Journal of Geodesy, 86, 499–520, doi:10.1007/s00190-011-0533-4.",
+        "journal-title": "Journal of Geodesy"
+      },
+      {
+        "key": "45-1_CR3",
+        "unstructured": "Bonvalot, S., Balmino, G., Briais, A., Kuhn, M., Peyrefitte, A., Vales, N., Biancale, R., Gabalda, G., Reinquin, F., and Sarrailh, M., 2012. World Gravity Map. 1:50000000 map, Eds. Paris: BGI-CGMW-CNES-IRD. Complete Bouguer anomaly (ISBN 978-2-2917310-08-3); Isostatic anomaly (ISBN 978-2-2917310-09-0); Surface free-air anomaly (ISBN 978-2-2917310-07-6)."
+      },
+      {
+        "key": "45-1_CR4",
+        "volume-title": "Resolutions of the CGMW General Assembly",
+        "author": "Commission for the Geological Map of the World – CGMW",
+        "year": "2010",
+        "unstructured": "Commission for the Geological Map of the World – CGMW, 2010. Resolutions of the CGMW General Assembly. Paris: UNESCO."
+      },
+      {
+        "key": "45-1_CR5",
+        "volume-title": "Physical Geodesy",
+        "author": "WA Heiskanen",
+        "year": "1967",
+        "unstructured": "Heiskanen, W. A., and Moritz, H., 1967. Physical Geodesy. San Francisco: Freeman."
+      },
+      {
+        "key": "45-1_CR6",
+        "unstructured": "Hofmann-Wellenhof, B., and Moritz, H., 2005. Physical Geodesy. Wien & New York: Springer."
+      },
+      {
+        "issue": "10",
+        "key": "45-1_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "787",
+        "DOI": "10.1007/s00190-012-0584-1",
+        "volume": "86",
+        "author": "Hermann Drewes",
+        "year": "2012",
+        "unstructured": "International Gravimetric Bureau - BGI, 2012. In Drewes, H., Hornik, H., Adam, J., and Rozsa, S. (eds.), The Geodesist’s Handbook 2012. (International Association of Geodesy). Journal of Geodesy, 86(10), doi:10.1007/s00190-012-0584-1.",
+        "journal-title": "Journal of Geodesy"
+      },
+      {
+        "key": "45-1_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "213",
+        "DOI": "10.1080/08120090802547041",
+        "volume": "56",
+        "author": "M Kuhn",
+        "year": "2009",
+        "unstructured": "Kuhn, M., Featherstone, W. E., and Kirby, J. F., 2009. Complete spherical Bouguer gravity anomalies over Australia. Australian Journal of Earth Sciences, 56, 213–223.",
+        "journal-title": "Australian Journal of Earth Sciences"
+      },
+      {
+        "key": "45-1_CR9",
+        "unstructured": "Pavlis, N. K., 1988. Modeling and estimation of a low degree geopotential model from terrestrial gravity data. Report No. 386, Department of Geodetic Science and Surveying, Ohio State University, Columbus, OH."
+      },
+      {
+        "key": "45-1_CR10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pavlis, N. K., Holmes, S. A., Kenyon, S. C., and Factor, J. K., 2008. An Earth Gravitational Model to Degree 2160: EGM2008. Vienna: EGU General Assembly, April 13–18, 2008.",
+        "DOI": "10.1190/1.3063757"
+      },
+      {
+        "key": "45-1_CR11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1515/9783110879957",
+        "volume-title": "Geodesy",
+        "author": "W Torge",
+        "year": "2001",
+        "unstructured": "Torge, W., 2001. Geodesy, 3rd edn. Berlin: de Gruyter.",
+        "edition": "3"
+      }
+    ],
+    "container-title": [
+      "Encyclopedia of Geodesy"
+    ],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/978-3-319-02370-0_45-1",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          15
+        ]
+      ],
+      "date-time": "2023-02-15T20:25:52Z",
+      "timestamp": 1676492752000
+    },
+    "score": 25.189339,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/978-3-319-02370-0_45-1"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783319023700"
+    ],
+    "references-count": 11,
+    "URL": "https://doi.org/10.1007/978-3-319-02370-0_45-1",
+    "published": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "17 March 2016, 14:07:03",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "17 March 2016, 14:07:49",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "10 May 2016",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      }
+    ]
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          18
+        ]
+      ],
+      "date-time": "2025-10-18T00:28:17Z",
+      "timestamp": 1760747297342,
+      "version": "build-2065373602"
+    },
+    "reference-count": 0,
+    "publisher": "AIP Publishing",
+    "issue": "12",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Phys. Today"
+    ],
+    "DOI": "10.1063/pt.5.026595",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          31
+        ]
+      ],
+      "date-time": "2017-01-31T11:51:31Z",
+      "timestamp": 1485863491000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Gravity map reveals lunar secrets"
+    ],
+    "prefix": "10.1063",
+    "volume": "2012",
+    "member": "317",
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          12,
+          7
+        ]
+      ]
+    },
+    "container-title": [
+      "Physics Today"
+    ],
+    "language": "en",
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          17
+        ]
+      ],
+      "date-time": "2025-10-17T15:52:50Z",
+      "timestamp": 1760716370000
+    },
+    "score": 24.493912,
+    "resource": {
+      "primary": {
+        "URL": "https://physicstoday.aip.org/news/gravity-map-reveals-lunar-secrets"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          12,
+          7
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "12",
+      "published-online": {
+        "date-parts": [
+          [
+            2012,
+            12
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1063/pt.5.026595",
+    "ISSN": [
+      "1945-0699"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "1945-0699"
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2012,
+          12,
+          7
+        ]
+      ]
+    },
+    "article-number": "17227"
+  }
+]

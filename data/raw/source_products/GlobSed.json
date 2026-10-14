@@ -1,0 +1,1037 @@
+[
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2026-09-16T13:34:39Z",
+      "timestamp": 1789565679897,
+      "version": "build-2803163510"
+    },
+    "reference-count": 62,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2020-03-01T00:00:00Z",
+          "timestamp": 1583020800000
+        },
+        "content-version": "am",
+        "delay-in-days": 335,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#am"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              2
+            ]
+          ],
+          "date-time": "2019-04-02T00:00:00Z",
+          "timestamp": 1554163200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 1,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000923",
+        "name": "Australian Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE150130"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE150130"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000923",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001659",
+        "name": "Deutsche Forschungsgemeinschaft",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "GO‐274/15"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "GO‐274/15"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001659",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100005416",
+        "name": "Norges Forskningsråd",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "223272"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "223272"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100005416",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Geochem Geophys Geosyst"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>We present GlobSed, a new global 5‐arc‐minute total sediment thickness grid for the world's oceans and marginal seas. GlobSed covers a larger area than previously published global grids and incorporates updates for the NE Atlantic, Arctic, Southern Ocean, and Mediterranean regions, which results in a 29.7% increase in estimated total oceanic sediment volume. We use this new global grid and a revised global oceanic lithospheric age grid to assess the relationship between the total sediment thickness and age of the underlying oceanic lithosphere and its latitude. An analytical approximation model is used to mathematically describe sedimentation trends in major oceanic basins and to allow paleobathymetric reconstructions at any given geological time. This study provides a much‐needed update of the sediment thickness distribution of the world oceans and delivers a model for sedimentation rates on oceanic crust through time that agrees well with selected drill data used for comparison.</jats:p>",
+    "DOI": "10.1029/2018gc008115",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          3,
+          1
+        ]
+      ],
+      "date-time": "2019-03-01T22:48:35Z",
+      "timestamp": 1551480515000
+    },
+    "page": "1756-1772",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 377,
+    "title": [
+      "GlobSed: Updated Total Sediment Thickness in the World's Oceans"
+    ],
+    "prefix": "10.1029",
+    "volume": "20",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2787-0906",
+        "authenticated-orcid": false,
+        "given": "E. O.",
+        "family": "Straume",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Centre for Earth Evolution and Dynamics, Department of Geosciences University of Oslo  Oslo Norway"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5533-8103",
+        "authenticated-orcid": false,
+        "given": "C.",
+        "family": "Gaina",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Earth Evolution and Dynamics, Department of Geosciences University of Oslo  Oslo Norway"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Medvedev",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Centre for Earth Evolution and Dynamics, Department of Geosciences University of Oslo  Oslo Norway"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2789-2179",
+        "authenticated-orcid": false,
+        "given": "K.",
+        "family": "Hochmuth",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Alfred Wegener Institute Helmholtz‐Centre for Polar and Marine Research  Bremerhaven Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9558-2116",
+        "authenticated-orcid": false,
+        "given": "K.",
+        "family": "Gohl",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Alfred Wegener Institute Helmholtz‐Centre for Polar and Marine Research  Bremerhaven Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3170-3935",
+        "authenticated-orcid": false,
+        "given": "J. M.",
+        "family": "Whittaker",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Marine and Antarctic Studies University of Tasmania  Hobart Tasmania Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Abdul Fattah",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "TNO, The Geological Survey of the Netherlands  Utrecht The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. C.",
+        "family": "Doornenbal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "TNO, The Geological Survey of the Netherlands  Utrecht The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3188-7583",
+        "authenticated-orcid": false,
+        "given": "J. R.",
+        "family": "Hopper",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Geological Survey of Denmark and Greenland  Copenhagen Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          4,
+          2
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_7_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/93RG02508"
+      },
+      {
+        "key": "e_1_2_7_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd-11-2541-2018"
+      },
+      {
+        "key": "e_1_2_7_4_1",
+        "unstructured": "Crameri F.(2018b).Scientific colour‐maps.https://doi.org/10.5281/zenodo.1243862"
+      },
+      {
+        "key": "e_1_2_7_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-246X.2006.03015.x"
+      },
+      {
+        "key": "e_1_2_7_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010TC002687"
+      },
+      {
+        "key": "e_1_2_7_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-246X.2009.04224.x"
+      },
+      {
+        "key": "e_1_2_7_8_1",
+        "volume-title": "Total sediment thickness of the world's oceans and marginal seas",
+        "author": "Divins D.",
+        "year": "2003"
+      },
+      {
+        "key": "e_1_2_7_9_1",
+        "first-page": "126",
+        "volume-title": "International geological‐geophysical atlas of the Atlantic Ocean",
+        "author": "Divins D.",
+        "year": "1990"
+      },
+      {
+        "key": "e_1_2_7_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/G38143.1"
+      },
+      {
+        "key": "e_1_2_7_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016GC006428"
+      },
+      {
+        "key": "e_1_2_7_12_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ebbing J. &Olesen O. (2010).New compilation of top basement and basement thickness for the Norwegian continental shelf reveals the segmentation of the passive margin system. Paper presented at the Geological Society London Petroleum Geology Conference Series 7 1 885 897.https://doi.org/10.1144/0070885",
+        "DOI": "10.1144/0070885"
+      },
+      {
+        "key": "e_1_2_7_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1144/SP447.1"
+      },
+      {
+        "key": "e_1_2_7_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014TC003780"
+      },
+      {
+        "key": "e_1_2_7_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tecto.2018.08.010"
+      },
+      {
+        "key": "e_1_2_7_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1144/SP447.12"
+      },
+      {
+        "key": "e_1_2_7_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tecto.2013.05.037"
+      },
+      {
+        "key": "e_1_2_7_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd-8-2735-2015"
+      },
+      {
+        "key": "e_1_2_7_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005JB004229"
+      },
+      {
+        "key": "e_1_2_7_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/AR054p0029"
+      },
+      {
+        "key": "e_1_2_7_21_1",
+        "first-page": "340",
+        "volume-title": "Tectonostratigraphic atlas of the north‐east Atlantic region",
+        "author": "Hopper J. R.",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_7_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.margeo.2015.01.011"
+      },
+      {
+        "key": "e_1_2_7_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gloplacha.2014.03.010"
+      },
+      {
+        "key": "e_1_2_7_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tecto.2016.09.018"
+      },
+      {
+        "key": "e_1_2_7_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1144/GSL.SP.2002.196.01.02"
+      },
+      {
+        "key": "e_1_2_7_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/G38601.1"
+      },
+      {
+        "key": "e_1_2_7_27_1",
+        "first-page": "F483",
+        "article-title": "A global digital map of sediment thickness",
+        "volume": "78",
+        "author": "Laske G.",
+        "year": "1997",
+        "journal-title": "Eos, Transactions American Geophysical Union"
+      },
+      {
+        "key": "e_1_2_7_28_1",
+        "unstructured": "Laske G. Masters G. Ma Z. &Pasyanos M.(2013).Update on CRUST1. 0—A 1‐degree global model of Earth's crust. Paper presented at the Geophys. Res. Abstracts."
+      },
+      {
+        "key": "e_1_2_7_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2016GC006401"
+      },
+      {
+        "key": "e_1_2_7_30_1",
+        "unstructured": "Ludwig W. &Houtz R.(1979).Isopach map of the sediments in the Pacific Ocean Basin color map with text. American Association of Petroleum Geologists Tulsa Okla USA."
+      },
+      {
+        "key": "e_1_2_7_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gloplacha.2016.10.002"
+      },
+      {
+        "key": "e_1_2_7_32_1",
+        "unstructured": "Matthias P. K. Rabinowitz P. D. &Dipiazza N.(1988).Sediment thickness map of the Indian Ocean map 505. Am. Assoc. Pet. Geol. Tulsa OK."
+      },
+      {
+        "key": "e_1_2_7_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/G21134.1"
+      },
+      {
+        "key": "e_1_2_7_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2002PA000828"
+      },
+      {
+        "key": "e_1_2_7_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-246X.2011.04940.x"
+      },
+      {
+        "key": "e_1_2_7_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/230042a0"
+      },
+      {
+        "key": "e_1_2_7_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2007GC001743"
+      },
+      {
+        "key": "e_1_2_7_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1151540"
+      },
+      {
+        "key": "e_1_2_7_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-earth-060115-012211"
+      },
+      {
+        "key": "e_1_2_7_40_1",
+        "first-page": "1",
+        "article-title": "Eurasia Basin and Gakkel Ridge, Arctic Ocean: Crustal asymmetry, ultra‐slow spreading and continental rifting revealed by new seismic data",
+        "author": "Nikishin A.",
+        "year": "2017",
+        "journal-title": "Tectonophysics"
+      },
+      {
+        "key": "e_1_2_7_41_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oakey G. N. &Stark A.(1995).A digital compilation of depth to basement and sediment thickness for the North Atlantic.Open File Report 3039(53 pp.).Dartmouth Canada:Geological Survey of Canada.",
+        "DOI": "10.4095/203476"
+      },
+      {
+        "key": "e_1_2_7_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-444-59425-9.00005-6"
+      },
+      {
+        "key": "e_1_2_7_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015GC006143"
+      },
+      {
+        "key": "e_1_2_7_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/JB082i005p00803"
+      },
+      {
+        "key": "e_1_2_7_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1144/SP447.17"
+      },
+      {
+        "key": "e_1_2_7_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.earscirev.2015.11.013"
+      },
+      {
+        "key": "e_1_2_7_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.margeo.2014.03.011"
+      },
+      {
+        "key": "e_1_2_7_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11001-005-1335-y"
+      },
+      {
+        "key": "e_1_2_7_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0012-821X(89)90049-6"
+      },
+      {
+        "key": "e_1_2_7_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.earscirev.2012.03.002"
+      },
+      {
+        "key": "e_1_2_7_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-30259-1_12"
+      },
+      {
+        "key": "e_1_2_7_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/359123a0"
+      },
+      {
+        "key": "e_1_2_7_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1144/GSL.SP.1998.131.01.02"
+      },
+      {
+        "key": "e_1_2_7_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0025-3227(96)00016-3"
+      },
+      {
+        "key": "e_1_2_7_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2010GC003347"
+      },
+      {
+        "key": "e_1_2_7_56_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "38",
+        "DOI": "10.1017/9781316225523.004",
+        "volume-title": "Earth history and palaeogeography",
+        "author": "Torsvik T. H.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_7_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-246X.2006.03158.x"
+      },
+      {
+        "key": "e_1_2_7_58_1",
+        "unstructured": "Udintsev G.(2003).International geological‐geophysical atlas of the Pacific Ocean. Intergovernmental Oceanographic Commission Moscow‐Saint Petersburg."
+      },
+      {
+        "key": "e_1_2_7_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005JC003207"
+      },
+      {
+        "key": "e_1_2_7_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015EA000107"
+      },
+      {
+        "key": "e_1_2_7_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013EO450001"
+      },
+      {
+        "key": "e_1_2_7_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ggge.20181"
+      },
+      {
+        "key": "e_1_2_7_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gloplacha.2014.09.006"
+      }
+    ],
+    "container-title": [
+      "Geochemistry, Geophysics, Geosystems"
+    ],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1029%2F2018GC008115",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1029/2018GC008115",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1029/2018GC008115",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/am-pdf/10.1029/2018GC008115",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2018GC008115",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          10
+        ]
+      ],
+      "date-time": "2023-09-10T09:13:24Z",
+      "timestamp": 1694337204000
+    },
+    "score": 56.71545,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018GC008115"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          4
+        ]
+      ]
+    },
+    "references-count": 62,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2018GC008115"
+    ],
+    "URL": "https://doi.org/10.1029/2018gc008115",
+    "archive": [
+      "Portico"
+    ],
+    "ISSN": [
+      "1525-2027",
+      "1525-2027"
+    ],
+    "issn-type": [
+      {
+        "value": "1525-2027",
+        "type": "print"
+      },
+      {
+        "value": "1525-2027",
+        "type": "electronic"
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2018-11-30",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-02-23",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2019-04-02",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2022-06-12T05:40:47Z",
+      "timestamp": 1655012447908
+    },
+    "edition-number": "1",
+    "reference-count": 0,
+    "publisher": "Cambridge University Press",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2012,
+              6,
+              5
+            ]
+          ],
+          "date-time": "2012-06-05T00:00:00Z",
+          "timestamp": 1338854400000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 1496,
+        "URL": "https://www.cambridge.org/core/terms"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2008,
+          5,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1017/cbo9780511805516.019",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          6,
+          19
+        ]
+      ],
+      "date-time": "2012-06-19T17:03:07Z",
+      "timestamp": 1340125387000
+    },
+    "page": "630-670",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Deep seas and oceans"
+    ],
+    "prefix": "10.1017",
+    "member": "56",
+    "container-title": [
+      "Earth Surface Processes, Landforms and Sediment Deposits"
+    ],
+    "link": [
+      {
+        "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/91C00E9A59A83E7A9D7BD2EF797E8182",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2022-06-12T05:25:06Z",
+      "timestamp": 1655011506000
+    },
+    "score": 31.687405,
+    "resource": {
+      "primary": {
+        "URL": "https://www.cambridge.org/core/product/identifier/CBO9780511805516A029/type/book_part"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          5,
+          1
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1017/cbo9780511805516.019",
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          5,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2025-10-24T12:40:50Z",
+      "timestamp": 1761309650068,
+      "version": "build-2065373602"
+    },
+    "publisher-location": "France",
+    "reference-count": 0,
+    "publisher": "European Association of Geochemistry",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "DOI": "10.7185/gold2025.27366",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2025-10-24T12:31:10Z",
+      "timestamp": 1761309070000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Selective Loss of Recent Carbon in Marginal Seas Caused by Sediment Mixing"
+    ],
+    "prefix": "10.7185",
+    "author": [
+      {
+        "given": "Bochao",
+        "family": "Xu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Shibin",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "4199",
+    "event": {
+      "name": "Goldschmidt2025",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            6
+          ]
+        ]
+      },
+      "location": "Prague, Czech Republic",
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            11
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "Goldschmidt2025 abstracts"
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2025-10-24T12:34:05Z",
+      "timestamp": 1761309245000
+    },
+    "score": 29.84719,
+    "resource": {
+      "primary": {
+        "URL": "https://goldschmidtabstracts.info/abstracts/abstractView?doi=10.7185/gold2025.27366"
+      }
+    },
+    "proceedings-subject": "Geochemistry and related disciplines",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.7185/gold2025.27366",
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  }
+]

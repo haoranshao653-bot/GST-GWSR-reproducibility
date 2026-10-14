@@ -1,0 +1,1295 @@
+[
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          2
+        ]
+      ],
+      "date-time": "2026-09-02T21:03:36Z",
+      "timestamp": 1788383016553,
+      "version": "build-2803163510"
+    },
+    "reference-count": 47,
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "1",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          10,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1093/gji/ggu246",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          8,
+          1
+        ]
+      ],
+      "date-time": "2014-08-01T07:03:41Z",
+      "timestamp": 1406876621000
+    },
+    "page": "113-135",
+    "source": "Crossref",
+    "is-referenced-by-count": 56,
+    "title": [
+      "A comprehensive dispersion model of surface wave phase and group velocity for the globe"
+    ],
+    "prefix": "10.1093",
+    "volume": "199",
+    "author": [
+      {
+        "given": "Zhitu",
+        "family": "Ma",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guy",
+        "family": "Masters",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gabi",
+        "family": "Laske",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Pasyanos",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "286",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          7,
+          31
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "849",
+        "DOI": "10.1111/j.1365-246X.2012.05661.x",
+        "article-title": "A simple method for determining the spatial resolution of a general inverse problem",
+        "volume": "191",
+        "author": "An",
+        "year": "2012",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "451",
+        "DOI": "10.1111/j.1365-246X.2007.03536.x",
+        "article-title": "Length scales, patterns and origin of azimuthal seismic anisotropy in the upper mantle as mapped by Rayleigh waves",
+        "volume": "171",
+        "author": "Becker",
+        "year": "2007",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib3",
+        "article-title": "Surface waves and crustal structure",
+        "author": "Brune",
+        "year": "1969",
+        "journal-title": "The Earth's Crust and Upper Mantle"
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1079",
+        "DOI": "10.1002/2013JB010528",
+        "article-title": "Oceanic lithosphere/asthenosphere boundary from surface wave dispersion data",
+        "volume": "119",
+        "author": "Burgos",
+        "year": "2014",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib5",
+        "first-page": "1025",
+        "volume-title": "Theoretical Global Seismology",
+        "author": "Dahlen",
+        "year": "1998"
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib6",
+        "first-page": "257",
+        "article-title": "Seismic surface-wave data on the upper mantle",
+        "volume": "13",
+        "author": "Dorman",
+        "year": "1969",
+        "journal-title": "Geophys. Monogr. Ser."
+      },
+      {
+        "issue": "4",
+        "key": "key\n\t\t\t\t20171010132337_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "DOI": "10.1016/0031-9201(81)90046-7",
+        "article-title": "Preliminary reference Earth model",
+        "volume": "25",
+        "author": "Dziewonski",
+        "year": "1981",
+        "journal-title": "Phys. Earth planet. Inter."
+      },
+      {
+        "issue": "1",
+        "key": "key\n\t\t\t\t20171010132337_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "427",
+        "DOI": "10.1785/BSSA0590010427",
+        "article-title": "A technique for the analysis of transient seismic signals",
+        "volume": "59",
+        "author": "Dziewonski",
+        "year": "1969",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib8a",
+        "doi-asserted-by": "crossref",
+        "first-page": "2825",
+        "DOI": "10.1029/JB086iB04p02825",
+        "article-title": "Determination of earthquake source parameters from waveform data for studies of global and regional seismicity",
+        "volume": "86",
+        "author": "Dziewonski",
+        "year": "1981",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "issue": "1",
+        "key": "key\n\t\t\t\t20171010132337_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1785/BSSA0620010129",
+        "article-title": "Residual dispersion measurement: a new method of surface-wave analysis",
+        "volume": "62",
+        "author": "Dziewonski",
+        "year": "1972",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "issue": "3",
+        "key": "key\n\t\t\t\t20171010132337_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1668",
+        "DOI": "10.1111/j.1365-246X.2011.05225.x",
+        "article-title": "A global model of Love and Rayleigh surface wave dispersion and anisotropy, 25–250 s",
+        "volume": "187",
+        "author": "Ekström",
+        "year": "2011",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "168",
+        "DOI": "10.1038/28148",
+        "article-title": "The unique anisotropy of the Pacific upper mantle",
+        "volume": "394",
+        "author": "Ekström",
+        "year": "1998",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "B4",
+        "key": "key\n\t\t\t\t20171010132337_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "8137",
+        "DOI": "10.1029/96JB03729",
+        "article-title": "Measurements and global models of surface wave propagation",
+        "volume": "102",
+        "author": "Ekström",
+        "year": "1997",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.pepi.2012.04.002",
+        "article-title": "The global CMT project 2004-2010: Centroid-moment tensors for 13,017 earthquakes",
+        "volume": "200–201",
+        "author": "Ekström",
+        "year": "2012",
+        "journal-title": "Phys. Earth planet. Inter."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "187",
+        "DOI": "10.1098/rsta.1975.0025",
+        "article-title": "An application of normal mode theory to the retrieval of structural parameters and source mechanisms from seismic spectra",
+        "volume": "278",
+        "author": "Gilbert",
+        "year": "1975",
+        "journal-title": "Phil. Trans. R. Soc. Lond."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "996",
+        "DOI": "10.1002/jgrb.50092",
+        "article-title": "Lithospheric cooling trends and deviations in oceanic PP-P and SS-S differential traveltimes",
+        "volume": "118",
+        "author": "Goes",
+        "year": "2013",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib16",
+        "first-page": "351",
+        "volume-title": "Clustering Algorithms",
+        "author": "Hartigan",
+        "year": "1975"
+      },
+      {
+        "issue": "1",
+        "key": "key\n\t\t\t\t20171010132337_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "195",
+        "DOI": "10.1111/j.1365-246X.2008.03763.x",
+        "article-title": "Shear and compressional velocity models of the mantle from cluster analysis of long-period waveforms",
+        "volume": "174",
+        "author": "Houser",
+        "year": "2008",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "issue": "1–4",
+        "key": "key\n\t\t\t\t20171010132337_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "497",
+        "DOI": "10.1016/0040-1951(72)90035-2",
+        "article-title": "Observation and inversion of surface-wave dispersion",
+        "volume": "13",
+        "author": "Knopoff",
+        "year": "1972",
+        "journal-title": "Tectonophysics"
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "B06306",
+        "DOI": "10.1029/2007JB005169",
+        "article-title": "Anisotropic shearwave velocity structure of the Earth's mantle: a global model",
+        "volume": "113",
+        "author": "Kustowski",
+        "year": "2008",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib20",
+        "first-page": "280",
+        "author": "Lancaster",
+        "year": "1986",
+        "journal-title": "IT Curve and Surface Fitting. An Introduction"
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "1377",
+        "DOI": "10.1007/PL00001226",
+        "article-title": "Global models of surface wave group velocity",
+        "volume": "158",
+        "author": "Larson",
+        "year": "2001",
+        "journal-title": "Pure. appl. Geophys."
+      },
+      {
+        "issue": "B7",
+        "key": "key\n\t\t\t\t20171010132337_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "16 059",
+        "DOI": "10.1029/96JB00526",
+        "article-title": "Constraints on global phase velocity maps from long-period polarization data",
+        "volume": "101",
+        "author": "Laske",
+        "year": "1996",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "issue": "3",
+        "key": "key\n\t\t\t\t20171010132337_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "508",
+        "DOI": "10.1046/j.1365-246X.1998.00450.x",
+        "article-title": "Surface-wave polarization data and global anisotropic structure",
+        "volume": "132",
+        "author": "Laske",
+        "year": "1998",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib24",
+        "article-title": "CRUST1. 0: An updated global model of Earth's crust",
+        "volume": "14",
+        "author": "Laske",
+        "year": "2012",
+        "journal-title": "Geophys. Res. Abstr."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "313",
+        "DOI": "10.1111/j.1365-246X.1993.tb05605.x",
+        "article-title": "On the use of the checker-board test to assess the resolution of tomographic inversions",
+        "volume": "115",
+        "author": "Lévěque",
+        "year": "1993",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib26",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1785/0120130320",
+        "article-title": "A new global Rayleigh and Love wave group velocity dataset for constraining lithosphere properties",
+        "author": "Ma",
+        "year": "2014",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1384",
+        "DOI": "10.1111/j.1365-246X.2006.03037.x",
+        "article-title": "Multimode surface waveform tomography of the Pacific Ocean: a closer look at the lithospheric cooling signature",
+        "volume": "166",
+        "author": "Maggi",
+        "year": "2006",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib28",
+        "article-title": "The relative behavior of shear velocity, bulk sound speed, and compressional velocity in the mantle: implications for chemical and thermal structure",
+        "author": "Masters",
+        "year": "2000",
+        "journal-title": "Earth's Deep Interior: Mineral Physics and Tomography From the Atomic to the Global Scale"
+      },
+      {
+        "issue": "1–2",
+        "key": "key\n\t\t\t\t20171010132337_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "82",
+        "DOI": "10.1016/0031-9201(89)90189-1",
+        "article-title": "Petrological constraints on seismic anisotropy",
+        "volume": "54",
+        "author": "Montagner",
+        "year": "1989",
+        "journal-title": "Phys. Earth planet. Inter."
+      },
+      {
+        "issue": "B4",
+        "key": "key\n\t\t\t\t20171010132337_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "4797",
+        "DOI": "10.1029/JB095iB04p04797",
+        "article-title": "Global anisotropy in the upper mantle inferred from the regionalization of phase velocities",
+        "volume": "95",
+        "author": "Montagner",
+        "year": "1990",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "Q04006",
+        "DOI": "10.1029/2007GC001743",
+        "article-title": "Age, spreading rates, and spreading asymmetry of the world's ocean crust",
+        "volume": "9",
+        "author": "Müller",
+        "year": "2008",
+        "journal-title": "Geochem. Geophys. Geosyst."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1111/j.1365-246X.1989.tb04446.x",
+        "article-title": "The anisotropic structure of the upper mantle in the Pacific",
+        "volume": "96",
+        "author": "Nishimura",
+        "year": "1989",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "issue": "1",
+        "key": "key\n\t\t\t\t20171010132337_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1145/355984.355989",
+        "article-title": "LSQR: An algorithm for sparse linear equations and sparse least squares",
+        "volume": "8",
+        "author": "Paige",
+        "year": "1982",
+        "journal-title": "ACM Trans. Math. Softw."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "2153",
+        "DOI": "10.1002/2013JB010626",
+        "article-title": "LITHO1.0: an updated crust and lithospheric model of the Earth",
+        "volume": "119",
+        "author": "Pasyanos",
+        "year": "2014",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "issue": "3",
+        "key": "key\n\t\t\t\t20171010132337_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1223",
+        "DOI": "10.1111/j.1365-246X.2010.04884.x",
+        "article-title": "S40RTS: a degree-40 shear-velocity model for the mantle from new Rayleigh wave dispersion, teleseismic traveltime and normal-mode splitting function measurements",
+        "volume": "184",
+        "author": "Ritsema",
+        "year": "2011",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "69",
+        "DOI": "10.1016/j.epsl.2004.07.032",
+        "article-title": "Cooling history of the Pacific lithosphere",
+        "volume": "226",
+        "author": "Ritzwoller",
+        "year": "2004",
+        "journal-title": "Earth planet. Sci. Lett."
+      },
+      {
+        "issue": "1",
+        "key": "key\n\t\t\t\t20171010132337_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "209",
+        "DOI": "10.1111/j.1365-246X.1986.tb04554.x",
+        "article-title": "First-order asymptotics for the eigenfrequencies of the Earth and application to the retrieval of large-scale lateral variations of structure",
+        "volume": "87",
+        "author": "Romanowicz",
+        "year": "1986",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "issue": "1",
+        "key": "key\n\t\t\t\t20171010132337_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "88",
+        "DOI": "10.1046/j.1365-246X.2002.01742.x",
+        "article-title": "Monte-Carlo inversion for a global shear-velocity model of the crust and upper mantle",
+        "volume": "151",
+        "author": "Shapiro",
+        "year": "2002",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "issue": "17",
+        "key": "key\n\t\t\t\t20171010132337_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "3321",
+        "DOI": "10.1029/JB078i017p03321",
+        "article-title": "The azimuthal dependence of Love and Rayleigh wave propagation in a slightly anisotropic medium",
+        "volume": "78",
+        "author": "Smith",
+        "year": "1973",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "B03204",
+        "DOI": "10.1029/2004JB002965",
+        "article-title": "Mineralogy and elasticity of the oceanic upper mantle: origin of the low-velocity zone",
+        "volume": "110",
+        "author": "Stixrude",
+        "year": "2005",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "issue": "2",
+        "key": "key\n\t\t\t\t20171010132337_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "675",
+        "DOI": "10.1111/j.1365-246X.1995.tb07019.x",
+        "article-title": "Global phase velocity maps of Love and Rayleigh waves between 40 and 150 seconds",
+        "volume": "122",
+        "author": "Trampert",
+        "year": "1995",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "issue": "1",
+        "key": "key\n\t\t\t\t20171010132337_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "154",
+        "DOI": "10.1046/j.1365-246X.2003.01952.x",
+        "article-title": "Global anisotropic phase velocity maps for fundamental mode surface waves between 40 and 150 s",
+        "volume": "154",
+        "author": "Trampert",
+        "year": "2003",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "key\n\t\t\t\t20171010132337_bib43",
+        "first-page": "472",
+        "author": "Turcotte",
+        "year": "2002",
+        "journal-title": "Geodynamics"
+      },
+      {
+        "issue": "1",
+        "key": "key\n\t\t\t\t20171010132337_bib44",
+        "first-page": "150",
+        "article-title": "Determination of teleseismic relative phase arrival times using multi-channel cross-correlation and least squares",
+        "volume": "80",
+        "author": "VanDecar",
+        "year": "1990",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "issue": "3",
+        "key": "key\n\t\t\t\t20171010132337_bib45",
+        "doi-asserted-by": "crossref",
+        "first-page": "1016",
+        "DOI": "10.1111/j.1365-246X.2007.03685.x",
+        "article-title": "Global anisotropic phase velocity maps for higher mode Love and Rayleigh waves",
+        "volume": "172",
+        "author": "Visser",
+        "year": "2008",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "issue": "1",
+        "key": "key\n\t\t\t\t20171010132337_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "142",
+        "DOI": "10.1111/j.1365-246X.2004.02324.x",
+        "article-title": "Three-dimensional sensitivity kernels for surface wave observables",
+        "volume": "158",
+        "author": "Zhou",
+        "year": "2004",
+        "journal-title": "Geophys. J. Int."
+      }
+    ],
+    "container-title": [
+      "Geophysical Journal International"
+    ],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://academic.oup.com/gji/article-pdf/199/1/113/2158791/ggu246.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          13
+        ]
+      ],
+      "date-time": "2022-04-13T10:26:21Z",
+      "timestamp": 1649845581000
+    },
+    "score": 42.993683,
+    "resource": {
+      "primary": {
+        "URL": "http://academic.oup.com/gji/article/199/1/113/726797/A-comprehensive-dispersion-model-of-surface-wave"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          7,
+          31
+        ]
+      ]
+    },
+    "references-count": 47,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2014,
+            7,
+            31
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2014,
+            10,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1093/gji/ggu246",
+    "ISSN": [
+      "1365-246X",
+      "0956-540X"
+    ],
+    "issn-type": [
+      {
+        "value": "1365-246X",
+        "type": "electronic"
+      },
+      {
+        "value": "0956-540X",
+        "type": "print"
+      }
+    ],
+    "published-other": {
+      "date-parts": [
+        [
+          2014,
+          10
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          7,
+          31
+        ]
+      ]
+    }
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          10
+        ]
+      ],
+      "date-time": "2026-09-10T01:55:01Z",
+      "timestamp": 1789005301311,
+      "version": "build-2803163510"
+    },
+    "reference-count": 34,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              3,
+              25
+            ]
+          ],
+          "date-time": "2014-03-25T00:00:00Z",
+          "timestamp": 1395705600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 24,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "JGR Solid Earth"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>We present the LITHO1.0 model, which is a 1° tessellated model of the crust and uppermost mantle of the Earth, extending into the upper mantle to include the lithospheric lid and underlying asthenosphere. The model is parameterized laterally by tessellated nodes and vertically as a series of geophysically identified layers, such as water, ice, sediments, crystalline crust, lithospheric lid, and asthenosphere. LITHO1.0 is created by constructing an appropriate starting model and perturbing it to fit high‐resolution surface wave dispersion maps (Love and Rayleigh, group and phase) over a wide frequency band (5–40 mHz). We examine and discuss the model with respect to key lithospheric parameters, such as average crustal velocity, crustal thickness, upper mantle velocity, and lithospheric thickness. We then compare the constructed model to those from a number of select studies at regional and global scales and find general consistency. It appears that LITHO1.0 represents a reasonable starting model of the Earth's shallow structure (crust and uppermost mantle) for the purposes in which these models are used, such as traveltime tomography or in efforts to create a 3‐D reference Earth model. The model matches surface wave dispersion over a frequency band wider than the band used in the inversion. There are several avenues for improving the model in the future by including attenuation and anisotropy, as well as making use of surface waves at higher frequency.</jats:p>",
+    "DOI": "10.1002/2013jb010626",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          3
+        ]
+      ],
+      "date-time": "2014-03-03T04:35:14Z",
+      "timestamp": 1393821314000
+    },
+    "page": "2153-2173",
+    "source": "Crossref",
+    "is-referenced-by-count": 455,
+    "title": [
+      "LITHO1.0: An updated crust and lithospheric model of the Earth"
+    ],
+    "prefix": "10.1029",
+    "volume": "119",
+    "author": [
+      {
+        "given": "Michael E.",
+        "family": "Pasyanos",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Lawrence Livermore National Laboratory  Livermore California USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T. Guy",
+        "family": "Masters",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "IGPP, Scripps Institute of Oceanography University of California, San Diego  La Jolla California USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gabi",
+        "family": "Laske",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "IGPP, Scripps Institute of Oceanography University of California, San Diego  La Jolla California USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhitu",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "IGPP, Scripps Institute of Oceanography University of California, San Diego  La Jolla California USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_10_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tecto.2005.11.022"
+      },
+      {
+        "key": "e_1_2_10_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511975417"
+      },
+      {
+        "key": "e_1_2_10_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1785/gssrl.80.6.989"
+      },
+      {
+        "key": "e_1_2_10_5_1",
+        "first-page": "81",
+        "article-title": "The current limits of resolution in surface wave tomography in North America",
+        "volume": "897",
+        "author": "Bassin C.",
+        "year": "2000",
+        "journal-title": "EOS Trans. AGU"
+      },
+      {
+        "key": "e_1_2_10_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/0722066"
+      },
+      {
+        "key": "e_1_2_10_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2001GC000252"
+      },
+      {
+        "key": "e_1_2_10_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsl.2009.09.022"
+      },
+      {
+        "key": "e_1_2_10_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005GL025621"
+      },
+      {
+        "key": "e_1_2_10_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-246X.1993.tb00897.x"
+      },
+      {
+        "key": "e_1_2_10_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature03247"
+      },
+      {
+        "key": "e_1_2_10_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0031-9201(81)90046-7"
+      },
+      {
+        "key": "e_1_2_10_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365‐246X.2011.05225.x"
+      },
+      {
+        "key": "e_1_2_10_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/28148"
+      },
+      {
+        "key": "e_1_2_10_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature01559"
+      },
+      {
+        "key": "e_1_2_10_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-246X.1995.tb03540.x"
+      },
+      {
+        "key": "e_1_2_10_17_1",
+        "first-page": "F483",
+        "article-title": "A global digital map of sediment thickness",
+        "volume": "78",
+        "author": "Laske G.",
+        "year": "1997",
+        "journal-title": "EOS Trans. AGU"
+      },
+      {
+        "key": "e_1_2_10_18_1",
+        "unstructured": "Laske G. G.Masters Z.Ma andM. E.Pasyanos(2012) CRUST1.0: An updated global model of the Earth's crust EGU General Assembly 14 p. 3743. [http://igppweb.ucsd.edu/~gabi/crust1.html.]"
+      },
+      {
+        "key": "e_1_2_10_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/PL00001233"
+      },
+      {
+        "key": "e_1_2_10_20_1",
+        "first-page": "211",
+        "article-title": "On a frequency‐time analysis of oscillations",
+        "volume": "28",
+        "author": "Levshin A. L.",
+        "year": "1972",
+        "journal-title": "Ann. Geophys."
+      },
+      {
+        "key": "e_1_2_10_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/97JB02122"
+      },
+      {
+        "key": "e_1_2_10_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/96JB01781"
+      },
+      {
+        "key": "e_1_2_10_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0031‐9201(95)03105‐7"
+      },
+      {
+        "key": "e_1_2_10_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005JB003749"
+      },
+      {
+        "key": "e_1_2_10_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tecto.2009.02.023"
+      },
+      {
+        "key": "e_1_2_10_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.lithos.2008.10.021"
+      },
+      {
+        "key": "e_1_2_10_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2003JB002610"
+      },
+      {
+        "key": "e_1_2_10_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365‐246X.2010.04884.x"
+      },
+      {
+        "key": "e_1_2_10_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2001GC000213"
+      },
+      {
+        "key": "e_1_2_10_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365‐246X.2002.01742.X"
+      },
+      {
+        "key": "e_1_2_10_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2012JB009525"
+      },
+      {
+        "key": "e_1_2_10_32_1",
+        "first-page": "450",
+        "volume-title": "Geodynamics: Applications of Continuum Physics to Geological Problems",
+        "author": "Turcotte D. L.",
+        "year": "1982"
+      },
+      {
+        "key": "e_1_2_10_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/95GL03080"
+      },
+      {
+        "key": "e_1_2_10_34_1",
+        "first-page": "321",
+        "volume-title": "Seismological Algorithms, Computational Methods, and Computer Programs",
+        "author": "Woodhouse J. H.",
+        "year": "1988"
+      },
+      {
+        "key": "e_1_2_10_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature09332"
+      }
+    ],
+    "container-title": [
+      "Journal of Geophysical Research: Solid Earth"
+    ],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F2013JB010626",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/2013JB010626",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/2013JB010626",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2013JB010626",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          6
+        ]
+      ],
+      "date-time": "2023-09-06T20:54:43Z",
+      "timestamp": 1694033683000
+    },
+    "score": 40.762768,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2013JB010626"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          3
+        ]
+      ]
+    },
+    "references-count": 34,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2014,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/2013JB010626"
+    ],
+    "URL": "https://doi.org/10.1002/2013jb010626",
+    "archive": [
+      "Portico"
+    ],
+    "ISSN": [
+      "2169-9313",
+      "2169-9356"
+    ],
+    "issn-type": [
+      {
+        "value": "2169-9313",
+        "type": "print"
+      },
+      {
+        "value": "2169-9356",
+        "type": "electronic"
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          23
+        ]
+      ],
+      "date-time": "2026-08-23T18:07:08Z",
+      "timestamp": 1787508428112,
+      "version": "build-2736575974"
+    },
+    "reference-count": 0,
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "3",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Geophys. J. Int."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1998,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1046/j.1365-246x.1998.00450.x",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2003,
+          3,
+          11
+        ]
+      ],
+      "date-time": "2003-03-11T17:05:55Z",
+      "timestamp": 1047402355000
+    },
+    "page": "508-520",
+    "source": "Crossref",
+    "is-referenced-by-count": 62,
+    "title": [
+      "Surface-wave polarization data and global anisotropic structure"
+    ],
+    "prefix": "10.1093",
+    "volume": "132",
+    "author": [
+      {
+        "given": "G.",
+        "family": "Laske",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G.",
+        "family": "Masters",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "286",
+    "container-title": [
+      "Geophysical Journal International"
+    ],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://academic.oup.com/gji/article-pdf/132/3/508/1547569/132-3-508.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          14
+        ]
+      ],
+      "date-time": "2023-02-14T06:55:50Z",
+      "timestamp": 1676357750000
+    },
+    "score": 21.765257,
+    "resource": {
+      "primary": {
+        "URL": "https://academic.oup.com/gji/article/132/3/508/577266"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          1998,
+          3
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            1998,
+            3
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1046/j.1365-246x.1998.00450.x",
+    "ISSN": [
+      "0956-540X",
+      "1365-246X"
+    ],
+    "issn-type": [
+      {
+        "value": "0956-540X",
+        "type": "print"
+      },
+      {
+        "value": "1365-246X",
+        "type": "electronic"
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1998,
+          3
+        ]
+      ]
+    }
+  }
+]

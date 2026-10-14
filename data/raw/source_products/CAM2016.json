@@ -1,0 +1,1843 @@
+[
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          8
+        ]
+      ],
+      "date-time": "2026-09-08T04:55:55Z",
+      "timestamp": 1788843355276,
+      "version": "build-2803163510"
+    },
+    "edition-number": "1",
+    "reference-count": 69,
+    "publisher": "Wiley",
+    "isbn-type": [
+      {
+        "value": "9781119249719",
+        "type": "print"
+      },
+      {
+        "value": "9781119249740",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              10,
+              31
+            ]
+          ],
+          "date-time": "2018-10-31T00:00:00Z",
+          "timestamp": 1540944000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1002/9781119249740.ch6",
+    "type": "other",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          31
+        ]
+      ],
+      "date-time": "2018-10-31T14:32:06Z",
+      "timestamp": 1540996326000
+    },
+    "page": "111-123",
+    "source": "Crossref",
+    "is-referenced-by-count": 88,
+    "title": [
+      "A Lithosphere–Asthenosphere Boundary—a Global Model Derived from Multimode Surface‐Wave Tomography and Petrology"
+    ],
+    "prefix": "10.1002",
+    "author": [
+      {
+        "given": "Keith",
+        "family": "Priestley",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dan",
+        "family": "McKenzie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tak",
+        "family": "Ho",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          31
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "3",
+        "key": "e_1_2_1_2_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "257",
+        "DOI": "10.1016/j.pepi.2006.08.002",
+        "article-title": "Lithospheric thickness of the Chinese continent",
+        "volume": "159",
+        "author": "An M.",
+        "year": "2006",
+        "journal-title": "Phys. Earth Planet. Inter."
+      },
+      {
+        "key": "e_1_2_1_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tecto.2005.11.022"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_2_1_4_1",
+        "first-page": "337",
+        "article-title": "Structure, seismic data, and orogenic evolution of southern Canadian Rocky Mountains",
+        "volume": "14",
+        "author": "Bally A. W.",
+        "year": "1966",
+        "journal-title": "Bull. Can. Petrol. Geol."
+      },
+      {
+        "key": "e_1_2_1_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/622131"
+      },
+      {
+        "key": "e_1_2_1_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/petrology/31.6.1353"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_2_1_7_1",
+        "first-page": "167",
+        "article-title": "Seismic waves and earth structure in the Canadian shield",
+        "volume": "53",
+        "author": "Brune J.",
+        "year": "1963",
+        "journal-title": "Bull. Seismol. Soc. Am."
+      },
+      {
+        "key": "e_1_2_1_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0031-9201(03)00156-0"
+      },
+      {
+        "key": "e_1_2_1_9_1",
+        "volume-title": "Etude du manteau supérior à partier des harmoniques des ondes de surface",
+        "author": "Cara M.",
+        "year": "1978"
+      },
+      {
+        "key": "e_1_2_1_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/GL014i010p01046"
+      },
+      {
+        "issue": "5",
+        "key": "e_1_2_1_11_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "907",
+        "DOI": "10.1093/petrology/egg116",
+        "article-title": "Petrogenesis of proterozoic lamproites and kimberlites from the Cuddapah Basin and Dharwar Craton, southern India",
+        "volume": "45",
+        "author": "Chalapathi Rao N.",
+        "year": "2004",
+        "journal-title": "J. Petrol."
+      },
+      {
+        "key": "e_1_2_1_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/0091-7613(1979)7<563:TTITCS>2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_1_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-246X.2006.03015.x"
+      },
+      {
+        "key": "e_1_2_1_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsl.2009.04.009"
+      },
+      {
+        "key": "e_1_2_1_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1365-246x.1999.00832.x"
+      },
+      {
+        "issue": "10",
+        "key": "e_1_2_1_16_1",
+        "article-title": "A global shear velocity model of the upper mantle from fundamental and higher Rayleigh mode measurements",
+        "volume": "117",
+        "author": "Debayle E.",
+        "year": "2012",
+        "journal-title": "J. Geophys. Res. Solid Earth"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_2_1_17_1",
+        "article-title": "Inversion of massive surface wave data sets: Model construction and resolution assessment",
+        "volume": "109",
+        "author": "Debayle E.",
+        "year": "2004",
+        "journal-title": "J. Geophys. Res. Solid Earth"
+      },
+      {
+        "key": "e_1_2_1_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature03247"
+      },
+      {
+        "key": "e_1_2_1_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0031-9201(81)90046-7"
+      },
+      {
+        "key": "e_1_2_1_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/JB086iB04p02825"
+      },
+      {
+        "key": "e_1_2_1_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-246X.2006.03075.x"
+      },
+      {
+        "key": "e_1_2_1_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsl.2005.02.008"
+      },
+      {
+        "key": "e_1_2_1_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsl.2009.12.003"
+      },
+      {
+        "key": "e_1_2_1_24_1",
+        "first-page": "381",
+        "volume-title": "Mantle Xenoliths",
+        "author": "Finnerty A. A.",
+        "year": "1987"
+      },
+      {
+        "key": "e_1_2_1_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/96JB01882"
+      },
+      {
+        "key": "e_1_2_1_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/1999JB900300"
+      },
+      {
+        "key": "e_1_2_1_27_1",
+        "first-page": "327",
+        "volume-title": "Principles of Precambrian Geology",
+        "author": "Goodwin A. M.",
+        "year": "1996"
+      },
+      {
+        "key": "e_1_2_1_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/98JB02786"
+      },
+      {
+        "key": "e_1_2_1_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0040-1951(99)00156-0"
+      },
+      {
+        "key": "e_1_2_1_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.287.5462.2463"
+      },
+      {
+        "key": "e_1_2_1_31_1",
+        "first-page": "83",
+        "article-title": "Rheology of the upper mantle and the mantle wedge: A view from the experimentalists",
+        "volume": "138",
+        "author": "Hirth G.",
+        "year": "2003",
+        "journal-title": "Am. Geophys. Monograph Ser."
+      },
+      {
+        "key": "e_1_2_1_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/gji/ggw292"
+      },
+      {
+        "key": "e_1_2_1_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/JB086iB07p06115"
+      },
+      {
+        "key": "e_1_2_1_34_1",
+        "first-page": "265",
+        "article-title": "Laboratory measurement of seismic wave dispersion and attenuation: Recent progress",
+        "volume": "117",
+        "author": "Jackson I.",
+        "year": "2000",
+        "journal-title": "Am. Geophys. Monograph Ser."
+      },
+      {
+        "key": "e_1_2_1_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0024-4937(99)00023-7"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_2_1_36_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "57",
+        "DOI": "10.1016/S0024-4937(99)00022-5",
+        "article-title": "Imaging the continental upper mantle using electromagnetic methods",
+        "volume": "48",
+        "author": "Jones A. G.",
+        "year": "1999",
+        "journal-title": "Lithos"
+      },
+      {
+        "key": "e_1_2_1_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/274544a0"
+      },
+      {
+        "key": "e_1_2_1_38_1",
+        "first-page": "1",
+        "article-title": "Mineralogies, densities and seismic velocities of garnet lherzolites and their geophysical implications",
+        "volume": "16",
+        "author": "Jordan T. H.",
+        "year": "1979",
+        "journal-title": "Am. Geophys. Union Monograph Ser."
+      },
+      {
+        "key": "e_1_2_1_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/petrology/Special_Volume.1.11"
+      },
+      {
+        "key": "e_1_2_1_40_1",
+        "first-page": "2658",
+        "article-title": "Update on CRUST1.0—a 1‐degree global model of Earth's crust",
+        "volume": "15",
+        "author": "Laske G.",
+        "year": "2013",
+        "journal-title": "Geophys. Res. Abstr."
+      },
+      {
+        "key": "e_1_2_1_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014JB011346"
+      },
+      {
+        "key": "e_1_2_1_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-246X.2011.04969.x"
+      },
+      {
+        "issue": "9",
+        "key": "e_1_2_1_43_1",
+        "article-title": "Experimental study of attenuation and dispersion over a broad frequency range: 2. The universal scaling of polycrystalline materials",
+        "volume": "116",
+        "author": "McCarthy C.",
+        "year": "2011",
+        "journal-title": "J. Geophys. Res. Solid Earth"
+      },
+      {
+        "key": "e_1_2_1_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1130/G36819.1"
+      },
+      {
+        "key": "e_1_2_1_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.lithos.2007.05.005"
+      },
+      {
+        "key": "e_1_2_1_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsl.2015.12.010"
+      },
+      {
+        "key": "e_1_2_1_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsl.2005.02.005"
+      },
+      {
+        "key": "e_1_2_1_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1144/GSL.SP.1993.076.01.04"
+      },
+      {
+        "issue": "4",
+        "key": "e_1_2_1_49_1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2007GC001743",
+        "article-title": "Age, spreading rates, and spreading asymmetry of the world's ocean crust",
+        "volume": "9",
+        "author": "Müller R. D.",
+        "year": "2008",
+        "journal-title": "Geochem. Geophys. Geosyst."
+      },
+      {
+        "key": "e_1_2_1_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0012-821X(85)90043-3"
+      },
+      {
+        "key": "e_1_2_1_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsl.2006.01.008"
+      },
+      {
+        "key": "e_1_2_1_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsl.2013.08.022"
+      },
+      {
+        "issue": "10",
+        "key": "e_1_2_1_53_1",
+        "article-title": "Upper mantle structure of eastern Asia from multimode surface waveform tomography",
+        "volume": "111",
+        "author": "Priestley K.",
+        "year": "2006",
+        "journal-title": "J. Geophys. Res. Solid Earth"
+      },
+      {
+        "key": "e_1_2_1_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-246X.2008.03951.x"
+      },
+      {
+        "issue": "11",
+        "key": "e_1_2_1_55_1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2012GC004435",
+        "article-title": "The Zagros core: Deformation of the continental lithospheric mantle",
+        "volume": "13",
+        "author": "Priestley K.",
+        "year": "2012",
+        "journal-title": "Geochem. Geophys. Geosyst."
+      },
+      {
+        "key": "e_1_2_1_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/JB086iB03p01738"
+      },
+      {
+        "key": "e_1_2_1_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature03904"
+      },
+      {
+        "key": "e_1_2_1_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/JB077i035p06966"
+      },
+      {
+        "key": "e_1_2_1_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2003JB002950"
+      },
+      {
+        "issue": "24",
+        "key": "e_1_2_1_60_1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1029/2004GL021402",
+        "article-title": "Can finite‐frequency effects be accounted for in ray theory surface wave tomography?",
+        "volume": "31",
+        "author": "Sieminski A.",
+        "year": "2004",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "e_1_2_1_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1175298"
+      },
+      {
+        "key": "e_1_2_1_62_1",
+        "first-page": "381",
+        "article-title": "An experimental test of some geothermometer and geobarometer formulations for upper mantle peridotites with application to the ther‐mobarometry of fertile lherzolite and garnet websterite",
+        "volume": "172",
+        "author": "Taylor W.",
+        "year": "1998",
+        "journal-title": "Neues Jahrb. Mineral., Abh."
+      },
+      {
+        "key": "e_1_2_1_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-246X.2006.02864.x"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_2_1_64_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "956",
+        "DOI": "10.1111/j.1365-246X.2005.02817.x",
+        "article-title": "Banana‐doughnut kernels and mantle tomography",
+        "volume": "163",
+        "author": "Hilst R. D.",
+        "year": "2005",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "e_1_2_1_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2013EO450001"
+      },
+      {
+        "key": "e_1_2_1_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/92JB01749"
+      },
+      {
+        "key": "e_1_2_1_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.pepi.2004.03.005"
+      },
+      {
+        "key": "e_1_2_1_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-246X.2010.04901.x"
+      },
+      {
+        "key": "e_1_2_1_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-246X.2006.02885.x"
+      },
+      {
+        "key": "e_1_2_1_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-246X.2012.05454.x"
+      }
+    ],
+    "container-title": [
+      "Geophysical Monograph Series",
+      "Lithospheric Discontinuities"
+    ],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F9781119249740.ch6",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119249740.ch6",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/9781119249740.ch6",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          19
+        ]
+      ],
+      "date-time": "2023-08-19T20:21:40Z",
+      "timestamp": 1692476500000
+    },
+    "score": 43.827503,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/9781119249740.ch6"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          31
+        ]
+      ]
+    },
+    "ISBN": [
+      "9781119249719",
+      "9781119249740"
+    ],
+    "references-count": 69,
+    "alternative-id": [
+      "10.1002/9781119249740.ch6",
+      "10.1002/SERIES5064",
+      "10.1002/9781119249740"
+    ],
+    "URL": "https://doi.org/10.1002/9781119249740.ch6",
+    "archive": [
+      "Portico"
+    ],
+    "ISSN": [
+      "2328-8779"
+    ],
+    "issn-type": [
+      {
+        "value": "2328-8779",
+        "type": "electronic"
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          31
+        ]
+      ]
+    }
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          12
+        ]
+      ],
+      "date-time": "2026-09-12T06:01:07Z",
+      "timestamp": 1789192867425,
+      "version": "build-2803163510"
+    },
+    "reference-count": 71,
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "3",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          1996,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1111/j.1365-246x.1996.tb04038.x",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2007,
+          4,
+          3
+        ]
+      ],
+      "date-time": "2007-04-03T07:59:08Z",
+      "timestamp": 1175587148000
+    },
+    "page": "563-581",
+    "source": "Crossref",
+    "is-referenced-by-count": 65,
+    "title": [
+      "Average lithospheric structure of southern Africa"
+    ],
+    "prefix": "10.1093",
+    "volume": "127",
+    "author": [
+      {
+        "given": "X.",
+        "family": "Qiu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K.",
+        "family": "Priestley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "McKenzie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "286",
+    "published-online": {
+      "date-parts": [
+        [
+          2007,
+          4,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB1|cit1",
+        "doi-asserted-by": "crossref",
+        "first-page": "2504",
+        "DOI": "10.1785/BSSA0810062504",
+        "article-title": "The isolation of receiver effects from teleseismic P waveforms",
+        "volume": "81",
+        "author": "Ammon",
+        "year": "1991",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB2|cit2",
+        "doi-asserted-by": "crossref",
+        "first-page": "15 303",
+        "DOI": "10.1029/JB095iB10p15303",
+        "article-title": "On the nonuniqueness of receiver function inversion",
+        "volume": "95",
+        "author": "Ammon",
+        "year": "1990",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB3|cit3",
+        "doi-asserted-by": "crossref",
+        "first-page": "885",
+        "DOI": "10.1007/978-3-642-69124-9_39",
+        "volume-title": "Intracontinental Fold Belts",
+        "author": "Baier",
+        "year": "1983"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB4|cit4",
+        "doi-asserted-by": "crossref",
+        "first-page": "253",
+        "DOI": "10.1016/0012-821X(87)90036-7",
+        "article-title": "Diversion of heat by Archaean cratons: a model for southern Africa",
+        "volume": "85",
+        "author": "Ballard",
+        "year": "1987",
+        "journal-title": "Earth planet. Sci. Lett."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB5|cit5",
+        "first-page": "119",
+        "article-title": "S-P conversion at the base of the crust",
+        "volume": "19",
+        "author": "Bath",
+        "year": "1966",
+        "journal-title": "Ann. Geofis."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB6|cit6",
+        "doi-asserted-by": "crossref",
+        "first-page": "61",
+        "DOI": "10.1007/BF00875629",
+        "article-title": "Exact-flattening procedure for the propagation of Rayleigh waves",
+        "volume": "96",
+        "author": "Biswas",
+        "year": "1972",
+        "journal-title": "Pageoph"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB7|cit7",
+        "first-page": "1123",
+        "article-title": "Exact-earth-flattening calculation for Love waves",
+        "volume": "60",
+        "author": "Biswas",
+        "year": "1970",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB8|cit8",
+        "first-page": "1599",
+        "article-title": "Velocities in the crust and upper mantle of southern Africa from multi-mode surface wave dispersion",
+        "volume": "59",
+        "author": "Bloch",
+        "year": "1969",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB9|cit9",
+        "doi-asserted-by": "crossref",
+        "first-page": "411",
+        "DOI": "10.1111/j.1365-246X.1990.tb06578.x",
+        "article-title": "An investigation of the upper mantle beneath north-western Australia using a hybrid seismograph array",
+        "volume": "101",
+        "author": "Bowman",
+        "year": "1990",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB10|cit10",
+        "first-page": "167",
+        "article-title": "Seismic waves and earth structure in the Canadian shield",
+        "volume": "53",
+        "author": "Prune",
+        "year": "1963",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB11|cit11",
+        "volume-title": "The Geochronology of Equatorial Africa",
+        "author": "Cahen",
+        "year": "1966"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB12|cit12",
+        "doi-asserted-by": "crossref",
+        "first-page": "139",
+        "DOI": "10.1016/0040-1951(91)90209-B",
+        "article-title": "Deep structure of Fennoscandia from fundamental and higher mode dispersion of Rayleigh waves",
+        "volume": "195",
+        "author": "Calcagnile",
+        "year": "1991",
+        "journal-title": "Tectonophysics"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB13|cit13",
+        "doi-asserted-by": "crossref",
+        "first-page": "276",
+        "DOI": "10.1016/0031-9201(92)90207-C",
+        "article-title": "Tomographic study of upper-mantle structure of the South African continent using wave-form inversion",
+        "volume": "72",
+        "author": "Cichowicz",
+        "year": "1992",
+        "journal-title": "Phys. Earth planet. Inter."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB14|cit14",
+        "first-page": "1",
+        "volume-title": "African Magmatism and Tectonics",
+        "author": "Clifford",
+        "year": "1970"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB15|cit15",
+        "doi-asserted-by": "crossref",
+        "first-page": "17 403",
+        "DOI": "10.1029/JB095iB11p17403",
+        "article-title": "Upper mantle structure of southern Africa from Pnl waves",
+        "volume": "95",
+        "author": "Clouser",
+        "year": "1990",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB16|cit16",
+        "first-page": "139",
+        "volume-title": "Continental Basalts and Mantle Xenoliths",
+        "author": "Cox",
+        "year": "1983"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB17|cit17",
+        "doi-asserted-by": "crossref",
+        "first-page": "155",
+        "DOI": "10.1098/rsta.1993.0011",
+        "article-title": "Continental magmatic underplating",
+        "volume": "342",
+        "author": "Cox",
+        "year": "1993",
+        "journal-title": "Phil. Trans. R. Soc. Lond. A."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB18|cit18",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-3-642-67742-7",
+        "volume-title": "Kimberlites and their Xenoliths",
+        "author": "Dawson",
+        "year": "1980"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB19|cit19",
+        "doi-asserted-by": "crossref",
+        "first-page": "173",
+        "DOI": "10.1016/0301-9268(92)90022-G",
+        "article-title": "The deep structure of the Limpopo Belt from geophysical studies",
+        "volume": "55",
+        "author": "Beer",
+        "year": "1992",
+        "journal-title": "Precambrian Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB20|cit20",
+        "doi-asserted-by": "crossref",
+        "first-page": "553",
+        "DOI": "10.1038/357553a0",
+        "article-title": "Formation of an Archaean continent",
+        "volume": "357",
+        "author": "Wit",
+        "year": "1992",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB21|cit21",
+        "doi-asserted-by": "crossref",
+        "first-page": "812",
+        "DOI": "10.1111/j.1365-246X.1992.tb03472.x",
+        "article-title": "A seismic refraction investigation of the Archaean Kaapvaal Crafon, South Africa, using mine tremors as the energy source",
+        "volume": "108",
+        "author": "Durrheim",
+        "year": "1992",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB22|cit22",
+        "doi-asserted-by": "crossref",
+        "first-page": "606",
+        "DOI": "10.1130/0091-7613(1991)019<0606:AAPCEE>2.3.CO;2",
+        "article-title": "Archaean and Proterozoic crustal evolution: Evidence from crustal seismology",
+        "volume": "19",
+        "author": "Durrheim",
+        "year": "1991",
+        "journal-title": "Geology"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB23|cit23",
+        "doi-asserted-by": "crossref",
+        "first-page": "187",
+        "DOI": "10.1016/0301-9268(92)90023-H",
+        "article-title": "Seismic studies in the Limpopo Belt",
+        "volume": "55",
+        "author": "Durrheim",
+        "year": "1992",
+        "journal-title": "Precambrain Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB24|cit24",
+        "first-page": "221",
+        "volume-title": "Mantle Metasomatism",
+        "author": "Erlank",
+        "year": "1987"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB25|cit25",
+        "doi-asserted-by": "crossref",
+        "first-page": "591",
+        "DOI": "10.1785/BSSA0570040591",
+        "article-title": "Magnitude determination at regional and near-regional distances in the United States",
+        "volume": "57",
+        "author": "Evernden",
+        "year": "1967",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB26|cit26",
+        "first-page": "381",
+        "volume-title": "Mantle Xenoliths",
+        "author": "Finnerty",
+        "year": "1987"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB27|cit27",
+        "doi-asserted-by": "crossref",
+        "first-page": "417",
+        "DOI": "10.1111/j.1365-246X.1971.tb01834.x",
+        "article-title": "Computation of synthetic seismograms with the reflectivity method and comparison with observations",
+        "volume": "23",
+        "author": "Fuchs",
+        "year": "1971",
+        "journal-title": "Geophys. J. R. astr. Soc."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB28|cit28",
+        "doi-asserted-by": "crossref",
+        "first-page": "293",
+        "DOI": "10.1785/BSSA0460040293",
+        "article-title": "Crustal structure in the Transvaal",
+        "volume": "46",
+        "author": "Gane",
+        "year": "1956",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB29|cit29",
+        "doi-asserted-by": "crossref",
+        "first-page": "7183",
+        "DOI": "10.1029/JB085iB12p07183",
+        "article-title": "Upper mantle structure of northwestern Eurasia",
+        "volume": "85",
+        "author": "Given",
+        "year": "1980",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB30|cit30",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.1111/j.1365-246X.1988.tb05896.x",
+        "article-title": "Waveform modelling using locked-mode synthetic and differential seismograms: application to determination of the structure of Mexico",
+        "volume": "94",
+        "author": "Gomberg",
+        "year": "1988",
+        "journal-title": "Geophys. J."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB31|cit31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1262",
+        "DOI": "10.1007/BF00874685",
+        "article-title": "An upper mantle P wave velocity model for eastern and southern Africa",
+        "volume": "116",
+        "author": "Green",
+        "year": "1978",
+        "journal-title": "Pure appl. Geophys."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB32|cit32",
+        "doi-asserted-by": "crossref",
+        "first-page": "19927",
+        "DOI": "10.1029/JB095iB12p19927",
+        "article-title": "A seismic refraction investigation of the Namaqualand metamorphic complex, South Africa",
+        "volume": "95",
+        "author": "Green",
+        "year": "1990",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB33|cit33",
+        "first-page": "668",
+        "article-title": "Seismic wave velocities and earth structure on the African continent",
+        "volume": "60",
+        "author": "Gumper",
+        "year": "1970",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB34|cit34",
+        "first-page": "424",
+        "article-title": "The diamondiferous roots of our wandering continent, S",
+        "volume": "93",
+        "author": "Gurney",
+        "year": "1990",
+        "journal-title": "Afri. J. Geol."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB35|cit35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/0040-1951(92)90136-T",
+        "article-title": "Evidence of crustal thinning beneath the Limpopo Belt and Lebombo monocline of southern Africa based on regional gravity studies and implications for the reconstruction of Gondwana",
+        "volume": "212",
+        "author": "Gwavava",
+        "year": "1992",
+        "journal-title": "Tectonophysics."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB36|cit36",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1111/j.1365-246X.1959.tb05777.x",
+        "article-title": "Evidence for an intermediate layer from crustal structure studies in the eastern Transvaal",
+        "volume": "2",
+        "author": "Hales",
+        "year": "1959",
+        "journal-title": "Geophys. J. R. astr. Soc."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB37|cit37",
+        "first-page": "1699",
+        "article-title": "Modelling the long-period body waves from shallow earthquakes at regional ranges",
+        "volume": "70",
+        "author": "Helmberger",
+        "year": "1980",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB38|cit38",
+        "doi-asserted-by": "crossref",
+        "first-page": "3309",
+        "DOI": "10.1029/JB076i014p03309",
+        "article-title": "Velocity gradients and anelasticity from crustal body wave amplitudes",
+        "volume": "76",
+        "author": "Hill",
+        "year": "1971",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB39|cit39",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1111/j.1365-246X.1973.tb02390.x",
+        "article-title": "Critically refracted waves in a spherically symmetric radially heterogeneous Earth model",
+        "volume": "34",
+        "author": "Hill",
+        "year": "1973",
+        "journal-title": "Geophys. J. R. astr. Soc."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB40|cit40",
+        "doi-asserted-by": "crossref",
+        "first-page": "349",
+        "DOI": "10.1088/0370-1298/65/5/307",
+        "article-title": "The elastic behaviour of a crystalline aggregate",
+        "volume": "65",
+        "author": "Hill",
+        "year": "1952",
+        "journal-title": "Proc. Phys. Soc. Lond. A."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB41|cit41",
+        "doi-asserted-by": "crossref",
+        "first-page": "469",
+        "DOI": "10.1785/BSSA0630020469",
+        "article-title": "Regional Sn velocities and shear velocity in the upper mantle",
+        "volume": "63",
+        "author": "Huestis",
+        "year": "1973",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB42|cit42",
+        "doi-asserted-by": "crossref",
+        "first-page": "85",
+        "DOI": "10.1016/0031-9201(94)05063-5",
+        "article-title": "The upper-mantle S and P velocity structure beneath northern Australia from broad-band observations",
+        "volume": "86",
+        "author": "Kennett",
+        "year": "1994",
+        "journal-title": "Phys. Earth planet. Int."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB43|cit43",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1016/0040-1951(77)90031-2",
+        "article-title": "Precambrian mobile belts of southern and eastern Africa: Ancient sutures or sites of ensialic mobility? A case for crustal evolution towards plate tectonics",
+        "volume": "40",
+        "author": "Kroner",
+        "year": "1977",
+        "journal-title": "Tectonophysics"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB44|cit44",
+        "doi-asserted-by": "crossref",
+        "first-page": "4749",
+        "DOI": "10.1029/JB084iB09p04749",
+        "article-title": "Structure under Mount Rainier. Washington, inferred from teleseismic body waves",
+        "volume": "84",
+        "author": "Langston",
+        "year": "1979",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB45|cit45",
+        "doi-asserted-by": "crossref",
+        "first-page": "457",
+        "DOI": "10.1785/BSSA0720020457",
+        "article-title": "Aspects of Pn and Pg propagation at regional distances",
+        "volume": "72",
+        "author": "Langston",
+        "year": "1982",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB46|cit46",
+        "doi-asserted-by": "crossref",
+        "first-page": "17 749",
+        "DOI": "10.1029/JB094iB12p17749",
+        "article-title": "Upper mantle P-velocity structure of the Canadian shield",
+        "volume": "94",
+        "author": "LeFevre",
+        "year": "1989",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB47|cit47",
+        "doi-asserted-by": "crossref",
+        "first-page": "41",
+        "DOI": "10.1111/j.1365-246X.1976.tb01261.x",
+        "article-title": "Velocity dispersion due to anelasticity: implications for seismology and mantle composition",
+        "volume": "47",
+        "author": "Liu",
+        "year": "1976",
+        "journal-title": "Geophys. J. R. astr. Soc."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB48|cit48",
+        "doi-asserted-by": "crossref",
+        "first-page": "137",
+        "DOI": "10.1016/0040-1951(77)90032-4",
+        "article-title": "Precambrian geodynamics-a paleomagnetic view",
+        "volume": "40",
+        "author": "McElhinny",
+        "year": "1977",
+        "journal-title": "Tectonophysics"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB49|cit49",
+        "doi-asserted-by": "crossref",
+        "first-page": "616",
+        "DOI": "10.1038/307616a0",
+        "article-title": "A possible mechanism for epeirogenic uplift",
+        "volume": "307",
+        "author": "McKenzie",
+        "year": "1984",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB50|cit50",
+        "doi-asserted-by": "crossref",
+        "first-page": "53",
+        "DOI": "10.1016/0012-821X(89)90167-2",
+        "article-title": "Some remarks on the movement of small melt fractions in the mantle",
+        "volume": "95",
+        "author": "McKenzie",
+        "year": "1989",
+        "journal-title": "Earth planet. Sci. Lett."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB51|cit51",
+        "doi-asserted-by": "crossref",
+        "first-page": "1021",
+        "DOI": "10.1093/petrology/32.5.1021",
+        "article-title": "Partial melt distributions from inversion of rare earth element concentrations",
+        "volume": "32",
+        "author": "McKenzie",
+        "year": "1991",
+        "journal-title": "J. Petrol."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB52|cit52",
+        "doi-asserted-by": "crossref",
+        "first-page": "2648",
+        "DOI": "10.1029/JB074i010p02648",
+        "article-title": "Lateral variations of attenuation in the upper mantle and discontinuities in the lithosphere",
+        "volume": "74",
+        "author": "Molnar",
+        "year": "1969",
+        "journal-title": "J. genphys. Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB53|cit53",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.1029/GL011i002p00109",
+        "article-title": "Anisotropy and shear-velocity heterogeneities in the upper mantle",
+        "volume": "11",
+        "author": "Nataf",
+        "year": "1984",
+        "journal-title": "Geophys. Res. Leu."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB54|cit54",
+        "doi-asserted-by": "crossref",
+        "first-page": "285",
+        "DOI": "10.1146/annurev.ea.09.050181.001441",
+        "article-title": "Depleted and fertile mantle xenoliths from southern African kimberlites",
+        "volume": "9",
+        "author": "Nixon",
+        "year": "1981",
+        "journal-title": "Ann. Rev. Earth planet. Sci."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB55|cit55",
+        "doi-asserted-by": "crossref",
+        "first-page": "8499",
+        "DOI": "10.1029/JB095iB06p08499",
+        "article-title": "Partitioned wave-form inversion and two-dimensional structure under the network of autonomously recording seismographs",
+        "volume": "95",
+        "author": "Nolet",
+        "year": "1990",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB56|cit56",
+        "doi-asserted-by": "crossref",
+        "first-page": "5412",
+        "DOI": "10.1029/JB079i035p05412",
+        "article-title": "Seismic velocities in dry and saturated cracked solids",
+        "volume": "79",
+        "author": "O'Connell",
+        "year": "1974",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB57|cit57",
+        "doi-asserted-by": "crossref",
+        "first-page": "151",
+        "DOI": "10.1785/BSSA0540010151",
+        "article-title": "Propagation of PL waves across the United States",
+        "volume": "54",
+        "author": "Oliver",
+        "year": "1964",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB58|cit58",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.1785/BSSA0500020165",
+        "article-title": "Leaking modes and the PL phase",
+        "volume": "50",
+        "author": "Oliver",
+        "year": "1960",
+        "journal-title": "Bull. seism. Soc Am."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB59|cit59",
+        "doi-asserted-by": "crossref",
+        "first-page": "7783",
+        "DOI": "10.1029/JB089iB09p07783",
+        "article-title": "Seismic evidence for an ancient rift beneath the Cumberland Plateau, Tennessee: A detailed analysis of broadband teleseismic P waveforms",
+        "volume": "89",
+        "author": "Owens",
+        "year": "1984",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB60|cit60",
+        "first-page": "282",
+        "article-title": "Kimberlites: A look into the Earth's mantle",
+        "volume": "71",
+        "author": "Fastens",
+        "year": "1983",
+        "journal-title": "Am. Scientist"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB61|cit61",
+        "doi-asserted-by": "crossref",
+        "first-page": "2265",
+        "DOI": "10.1029/JB083iB05p02265",
+        "article-title": "Surface waves and the structure of the Great Basin of Nevada and western Utah",
+        "volume": "83",
+        "author": "Priestley",
+        "year": "1978",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB62|cit62",
+        "doi-asserted-by": "crossref",
+        "first-page": "7166",
+        "DOI": "10.1029/JB085iB12p07166",
+        "article-title": "Higher-mode surface waves and the structure of the Great Basin of Nevada and western Utah",
+        "volume": "85",
+        "author": "Priestley",
+        "year": "1980",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB63|cit63",
+        "doi-asserted-by": "crossref",
+        "first-page": "198",
+        "DOI": "10.1038/310198a0",
+        "article-title": "Origin of diamonds in old enriched mantle",
+        "volume": "310",
+        "author": "Richardson",
+        "year": "1984",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB64|cit64",
+        "doi-asserted-by": "crossref",
+        "first-page": "3135",
+        "DOI": "10.1029/JB089iB05p03135",
+        "article-title": "Propagation of PL and implications for the structure of Tibet",
+        "volume": "89",
+        "author": "Shaw",
+        "year": "1984",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB65|cit65",
+        "doi-asserted-by": "crossref",
+        "first-page": "323",
+        "DOI": "10.1016/0040-1951(87)90300-3",
+        "article-title": "Seismic crustal structure of the Limpopo mobile belt, Zimbabwe",
+        "volume": "144",
+        "author": "Stuart",
+        "year": "1987",
+        "journal-title": "Tectonophysics"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB66|cit66",
+        "doi-asserted-by": "crossref",
+        "first-page": "787",
+        "DOI": "10.1093/petrology/35.3.787",
+        "article-title": "The generation of kimberlites, lamproites. and their source rocks",
+        "volume": "35",
+        "author": "Tainton",
+        "year": "1994",
+        "journal-title": "J. Petrol."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB67|cit67",
+        "volume-title": "Crustal Evolution of Southern Africa: 3.8 Billion Years of Earth History",
+        "year": "1982"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB68|cit68",
+        "doi-asserted-by": "crossref",
+        "first-page": "50",
+        "DOI": "10.1038/375050a0",
+        "article-title": "Recent deformations of the deep continental root beneath southern Africa",
+        "volume": "375",
+        "author": "Vinnik",
+        "year": "1995",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB69|cit69",
+        "first-page": "185",
+        "article-title": "Assessment of the vertical extent and distribution of mantle metasomatism below Kimberly, South Africa",
+        "author": "Waters",
+        "year": "1988",
+        "journal-title": "J. Petrol., Spec. Lithosphere issue"
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB70|cit70",
+        "doi-asserted-by": "crossref",
+        "first-page": "53",
+        "DOI": "10.1785/BSSA0420010053",
+        "article-title": "A seismic investigation of crustal structure in the western Transvaal",
+        "volume": "42",
+        "author": "Willmore",
+        "year": "1952",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "10.1111/j.1365-246X.1996.tb04038.x-BIB71|cit71",
+        "doi-asserted-by": "crossref",
+        "first-page": "333",
+        "DOI": "10.1016/0040-1951(90)90228-Z",
+        "article-title": "Deep seismic profiling in the Nosop Basin, Botswana: cratons, mobile belts and sedimentary basins",
+        "volume": "173",
+        "author": "Wright",
+        "year": "1990",
+        "journal-title": "Tectonophysics"
+      }
+    ],
+    "container-title": [
+      "Geophysical Journal International"
+    ],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://academic.oup.com/gji/article-pdf/127/3/563/6022712/127-3-563.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          11
+        ]
+      ],
+      "date-time": "2023-05-11T08:34:50Z",
+      "timestamp": 1683794090000
+    },
+    "score": 33.217175,
+    "resource": {
+      "primary": {
+        "URL": "https://academic.oup.com/gji/article-lookup/doi/10.1111/j.1365-246X.1996.tb04038.x"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          1996,
+          12
+        ]
+      ]
+    },
+    "references-count": 71,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            1996,
+            12
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1111/j.1365-246x.1996.tb04038.x",
+    "ISSN": [
+      "0956-540X"
+    ],
+    "issn-type": [
+      {
+        "value": "0956-540X",
+        "type": "print"
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1996,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          12
+        ]
+      ],
+      "date-time": "2026-09-12T01:29:28Z",
+      "timestamp": 1789176568379,
+      "version": "build-2803163510"
+    },
+    "reference-count": 22,
+    "publisher": "Geological Society of America",
+    "issue": "9",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Geology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1130/g36819.1",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          7,
+          17
+        ]
+      ],
+      "date-time": "2015-07-17T22:45:07Z",
+      "timestamp": 1437173107000
+    },
+    "page": "783-786",
+    "source": "Crossref",
+    "is-referenced-by-count": 54,
+    "title": [
+      "The lithospheric structure of Pangea"
+    ],
+    "prefix": "10.1130",
+    "volume": "43",
+    "author": [
+      {
+        "given": "Dan",
+        "family": "McKenzie",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael C.",
+        "family": "Daly",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Keith",
+        "family": "Priestley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "257",
+    "published-online": {
+      "date-parts": [
+        [
+          2015,
+          7,
+          17
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2015112407131150000_43.9.783.1",
+        "unstructured": "Bizzi L.A. Schobbenhaus C. Vidotti R.M. Goncalves J.H. , 2003, Geology, Tectonics and Mineral Resources of Brazil: Brasilia, Serviço Geológico do Brasil, 692 p."
+      },
+      {
+        "key": "2015112407131150000_43.9.783.2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Caby R. , 1987, The Pan-African belt of West Africa from the Sahara desert to the Gulf of Benin, in Schaer J.P. Rodgers J. , eds., The Anatomy of Mountain Ranges: Princeton, New Jersey, Princeton University Press, p. 129–170.",
+        "DOI": "10.1515/9781400858644.129"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0301-9268(84)90068-8"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Daly M.C. Chorowitz J. Fairhead D.J. , 1989, Rift basin evolution in Africa: The influence of reactivated steep basement shear zones, in Cooper M.A. Williams G.D. , eds., Inversion Tectonics: Geological Society of London Special Publication 44, p. 309–334, doi:10.1144/GSL.SP.1989.044.01.17.",
+        "DOI": "10.1144/GSL.SP.1989.044.01.17"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2014TC003632"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/91TC02365"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.7",
+        "unstructured": "Dana J.D. , 1875, Manual of Geology—Treating of the Principles of the Science with Special Reference to American Geological History (second edition): New York, Ivison, Blakeman, Taylor, and Co., 843 p."
+      },
+      {
+        "key": "2015112407131150000_43.9.783.8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "de Almeida F.F.M. Hasui Y. Brito Y. Neves B.B. Fuck R.A. , 1981, Brazilian structural provinces: An introduction: Earth-Science Reviews, v. 17, p. 1–29, doi:10.1016/0012-8252(81)90003-9.",
+        "DOI": "10.1016/0012-8252(81)90003-9"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.earth.32.101802.120257"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.10",
+        "unstructured": "Du Toit A.L. , 1937, Our Wandering Continents: London, Oliver and Boyd, 366 p."
+      },
+      {
+        "key": "2015112407131150000_43.9.783.11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Harley S.L. , 2003, Archaean-Cambrian crustal development of East Antarctica: Metamorphic characteristics and tectonic implications, in Yoshida M. , eds., Proterozoic East Gondwana: Supercontinent Assembly and Breakup: Geological Society of London Special Publication 206, p. 203–230, doi:10.1144/GSL.SP.2003.206.01.11.",
+        "DOI": "10.1144/GSL.SP.2003.206.01.11"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.12",
+        "unstructured": "Kennedy W.Q. , 1964, The structural differentiation of Africa in the Pan-African (500 m.y.) tectonic episode, in 8th Annual Report of the Research Institute of African Geology: Leeds, UK, Leeds University, p. 48–49."
+      },
+      {
+        "key": "2015112407131150000_43.9.783.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0301-9268(77)90045-6"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.14",
+        "unstructured": "Milesi J.P. Frizon de Lamotte D. de Kock G. Toteu F. , 2010, The tectonic map of Africa (second edition): Paris, Commission for the Geological Map of the World, scale 1:10,000,000."
+      },
+      {
+        "key": "2015112407131150000_43.9.783.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0743-9547(96)00051-7"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsl.2006.01.008"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsl.2013.08.022"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Scotese C.R. Langford R.P. , 1995, Pangea and the paleogeography of the Permian, in Scholle P.A. , eds., The Permian of Northern Pangea: Volume 1, Paleogeography, Paleoclimates, Stratigraphy: Berlin, Springer-Verlag, 261 p., doi:10.1007/978-3-642-78593-1.",
+        "DOI": "10.1007/978-3-642-78593-1"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0899-5362(97)00002-X"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.ea.22.050194.001535"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.precamres.2006.01.015"
+      },
+      {
+        "key": "2015112407131150000_43.9.783.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.gr.2007.07.004"
+      }
+    ],
+    "container-title": [
+      "Geology"
+    ],
+    "language": "en",
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          5
+        ]
+      ],
+      "date-time": "2020-06-05T16:44:40Z",
+      "timestamp": 1591375480000
+    },
+    "score": 32.604424,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.geoscienceworld.org/geology/article/43/9/783-786/131925"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          7,
+          17
+        ]
+      ]
+    },
+    "references-count": 22,
+    "journal-issue": {
+      "issue": "9",
+      "published-online": {
+        "date-parts": [
+          [
+            2015,
+            8,
+            20
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2015,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1130/G36819.1"
+    ],
+    "URL": "https://doi.org/10.1130/g36819.1",
+    "ISSN": [
+      "0091-7613",
+      "1943-2682"
+    ],
+    "issn-type": [
+      {
+        "value": "0091-7613",
+        "type": "print"
+      },
+      {
+        "value": "1943-2682",
+        "type": "electronic"
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          7,
+          17
+        ]
+      ]
+    }
+  }
+]

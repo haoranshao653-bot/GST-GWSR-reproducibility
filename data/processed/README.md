@@ -1,3 +1,3 @@
-Place the curator-approved derived station table here as `heat_flow_stations.csv`.
+`heat_flow_stations.csv` is the exact 1,024-row table used by the recorded experiments. It is included in the private advisor repository together with the source products and processing scripts. `scripts/prepare_dataset.py` documents and reruns the deterministic construction path.
 
-It is deliberately excluded from the initial public repository until redistribution permissions for the IHFC records and all eight predictor layers have been confirmed. See `../README.md` and `../../docs/data_sources.md`.
+The table schema is `lon`, `lat`, `heat_flow`, `topo`, `bouguer`, `sediment`, `moho`, `lab`, `cpd`, `lithos_km`, and `volcano`.

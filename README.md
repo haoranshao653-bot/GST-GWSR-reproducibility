@@ -1,6 +1,6 @@
 # GST–GWSR reproducibility repository
 
-This repository contains the code, configuration, figures, and recorded outputs for the GST–GWSR marine heat-flow study. It is organized for inspection and rerunning rather than for distributing a private desktop workspace.
+This repository contains the complete private advisor package for the GST–GWSR marine heat-flow study: source data, processing scripts, the exact derived station table, model code, configurations, figures, and recorded outputs. It is organized for inspection and rerunning rather than for distributing a private desktop workspace.
 
 The canonical protocol is the protected fixed outer split:
 
@@ -28,8 +28,8 @@ The matched `k=45` efficiency comparison records a mean runtime reduction from 9
 configs/                 Locked protocol descriptions
 src/gwsr/                Portable core and exact experiment adapters
 scripts/                 Data validation, run wrappers, and figure helpers
-data/raw/                Source snapshot and geographic boundary data
-data/processed/          User-supplied derived station table (not bundled)
+data/raw/                Source products, source metadata, and predictor grids
+data/processed/          Exact derived station table used by the experiments
 data/example/            Small deterministic smoke-test input
 results/                 Recorded metrics, predictions, manifests, and audits
 figures/current/         Current paper-ready figures
@@ -37,9 +37,9 @@ docs/                    Data provenance and reproducibility protocol
 tests/                   Lightweight structural checks
 ```
 
-## Data boundary
+## Data and Git LFS
 
-The exact model input is a derived table named `data/processed/heat_flow_stations.csv` with columns `lon`, `lat`, `heat_flow`, `topo`, `bouguer`, `sediment`, `moho`, `lab`, `cpd`, `lithos_km`, and `volcano`. A local copy is present in the complete working archive and is deliberately git-ignored until the redistribution terms for every source layer are confirmed. `data/raw/IHFC.json` records the IHFC source metadata and DOI; it does not replace the derived predictor table. See `data/README.md` before public redistribution.
+The exact model input is `data/processed/heat_flow_stations.csv` with columns `lon`, `lat`, `heat_flow`, `topo`, `bouguer`, `sediment`, `moho`, `lab`, `cpd`, `lithos_km`, and `volcano`. The private advisor version includes this table, the raw/source products, and the processing scripts. Large source rasters are tracked with Git LFS, so a clone must run `git lfs pull`.
 
 To reproduce the paper run, obtain the permitted source products, create the derived station table, and validate it:
 
@@ -87,6 +87,10 @@ python scripts/run_smoke.py
 5. Generate figures and compare the new manifests with the recorded outputs in `results/`.
 
 The recorded results are evidence of one fixed study region and station configuration. They are not a claim of cross-region generalization.
+
+## Sharing with the advisor before submission
+
+Create a private GitHub repository from this directory, add the advisor as a collaborator, and send the repository URL. The private repository is the working review copy; keep the `main` branch at the code and data version used in the manuscript. Before making the repository public after submission or acceptance, review the complete Git history and create a versioned GitHub Release. The publication workflow is described in `docs/publication_workflow.md`.
 
 ## Results and provenance
 

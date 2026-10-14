@@ -10,4 +10,4 @@ Completed checks:
 - The exact adapters import and compile successfully after replacing desktop paths with repository-relative or environment-controlled paths.
 - The recorded primary metrics match `results/final_outer/outer_ensemble_metrics.csv` to the shown precision.
 
-The full 1,024-station rerun was not started during packaging because a complete GP search is computationally expensive. The complete local archive contains the derived table whose SHA-256 matches `data/processed/manifest.json`; the table remains git-ignored until the curator verifies the source-data terms.
+The full 1,024-station rerun was not started during packaging because a complete GP search is computationally expensive. The private advisor version includes the derived table, source products, and processing code. The exact input table SHA-256 matches `data/processed/manifest.json`.

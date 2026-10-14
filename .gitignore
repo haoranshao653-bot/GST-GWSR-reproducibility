@@ -5,7 +5,9 @@ __pycache__/
 *.log
 .pytest_cache/
 run_outputs/
-data/processed/*
+data/processed/*_rebuilt*.csv
+data/processed/prepare_audit*.json
+!data/processed/heat_flow_stations.csv
 !data/processed/README.md
 !data/processed/manifest.json
 *.zip

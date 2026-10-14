@@ -1,0 +1,169 @@
+{
+  "files": [
+    {
+      "path": "data/raw/china_provinces.geojson",
+      "bytes": 582522,
+      "sha256": "99adfeded5223848bbe37a0a12f8023e11ee12161c7800521c27db42fdeac275"
+    },
+    {
+      "path": "data/raw/heat_flow_source/heat_flow_stations.csv",
+      "bytes": 95037,
+      "sha256": "b28b789a818500f718f81cbccc2b6a68a72c1a164c9d536016ff099a8583fe05"
+    },
+    {
+      "path": "data/raw/IHFC.json",
+      "bytes": 335068,
+      "sha256": "6fbc494f163aca859f1b388506967d45a56518a81fb071f3a40feecf8b13398a"
+    },
+    {
+      "path": "data/raw/predictor_grids/bouguer_grid_025deg.csv",
+      "bytes": 328578,
+      "sha256": "76ca2b1ea0165fb60a8815fd29c7fcc09a08beadfb9fd4df6d79b3dc97ec4714"
+    },
+    {
+      "path": "data/raw/predictor_grids/cpd_grid_025deg.csv",
+      "bytes": 317887,
+      "sha256": "ef1dd3279a8c8ba5e6eadbc54698931750fe62a7add8443b8d565ab8298b0977"
+    },
+    {
+      "path": "data/raw/predictor_grids/lab_grid_025deg.csv",
+      "bytes": 318204,
+      "sha256": "f409b147e546ae1ab000ef12ec9a40776054abc57b7e0125e106260e3f483fa9"
+    },
+    {
+      "path": "data/raw/predictor_grids/lithos_km_grid_025deg.csv",
+      "bytes": 318602,
+      "sha256": "3f1ca062b9bc70f6893f48ace2911a5330fc50422663ae20fbd7967d7915717f"
+    },
+    {
+      "path": "data/raw/predictor_grids/moho_grid_025deg.csv",
+      "bytes": 317883,
+      "sha256": "f8ee73d2d42cb8ad1029c2951d71c384b68e5c5e087fbfa31c7ac4c867e1314d"
+    },
+    {
+      "path": "data/raw/predictor_grids/sediment_grid_025deg.csv",
+      "bytes": 305538,
+      "sha256": "4c0456ae8dce54e01e1b9c8ebf97f5961d14451d81d5e6382adf8a6297d21c67"
+    },
+    {
+      "path": "data/raw/predictor_grids/topo_grid_025deg.csv",
+      "bytes": 338879,
+      "sha256": "20d550736af4057ab85ccdf20199272d61177afa3e4942feff0b5575341b75a8"
+    },
+    {
+      "path": "data/raw/predictor_grids/volcano_grid_025deg.csv",
+      "bytes": 329306,
+      "sha256": "63c633624ad597204b47747c7e35dbe17fbeb656ccbf424d3defa700bf06c258"
+    },
+    {
+      "path": "data/raw/README.md",
+      "bytes": 651,
+      "sha256": "b47bc7606d16bdd03d266c9b7eb071fb59c64cf2595aafa2386c3b26c2553741"
+    },
+    {
+      "path": "data/raw/source_products/CAM2016.json",
+      "bytes": 59096,
+      "sha256": "054ccc5dd4f469170380fddb0f90044c06d5f5991a88e56548bd7509f800dfd3"
+    },
+    {
+      "path": "data/raw/source_products/CAM2016Litho.nc",
+      "bytes": 68420,
+      "sha256": "3ba2c3b7d2ffbcead5df9066211ccfe478d5d6fdfc1e1a85c0b452b06990057e"
+    },
+    {
+      "path": "data/raw/source_products/cpd_south_china_sea.csv",
+      "bytes": 528194,
+      "sha256": "f95d53493d3ac944afe28d2244c969f2e78c2ceceaffb540538f72ba441a8f07"
+    },
+    {
+      "path": "data/raw/source_products/CRUST.html",
+      "bytes": 21728,
+      "sha256": "1adadf7a1e6608754a22aee2bf4d28a2e8703ffbde92fff86d138420804e2ae3"
+    },
+    {
+      "path": "data/raw/source_products/EMAG2_V3_20170530_UpCont.tif",
+      "bytes": 239593097,
+      "sha256": "719db9d060a423b7292f09fa4312e7d0ebd4e284ba652079b34e3d05be5a370a"
+    },
+    {
+      "path": "data/raw/source_products/GEBCO.html",
+      "bytes": 67069,
+      "sha256": "005abfc8292dcbbccaadd9ef1cf54c8f2ec871ba47dc9e0e13904380b308f68c"
+    },
+    {
+      "path": "data/raw/source_products/gebco_2026_n27.0_s-6.0_w102.0_e125.0_geotiff.tif",
+      "bytes": 87492144,
+      "sha256": "f6cc33802cc6b0bd26b0657633af677a7d0062b99dd8f36699f3d9d68f265b5f"
+    },
+    {
+      "path": "data/raw/source_products/GlobSed-v3.nc",
+      "bytes": 11285524,
+      "sha256": "86f61493dc41c47e6fcb0089058150e0963bd6f0379943fd80d1d09a66d77ca4"
+    },
+    {
+      "path": "data/raw/source_products/GlobSed.json",
+      "bytes": 27889,
+      "sha256": "a24219c7bcb05203207ade95937254144373f9dbfc4fbf3b7cab748f86d08578"
+    },
+    {
+      "path": "data/raw/source_products/GVP_Volcano_List_Holocene_202605272245.csv",
+      "bytes": 274584,
+      "sha256": "888cc12206cad8ff133df34820621e3be53f6c1ce7afbaf30365cef5da8dcc00"
+    },
+    {
+      "path": "data/raw/source_products/IHFC.json",
+      "bytes": 335068,
+      "sha256": "6fbc494f163aca859f1b388506967d45a56518a81fb071f3a40feecf8b13398a"
+    },
+    {
+      "path": "data/raw/source_products/Li2017.json",
+      "bytes": 28689,
+      "sha256": "08181f1cb3d5ccb253db41056b0c96055165e7a0ace4c0cfdde8db8148ba1790"
+    },
+    {
+      "path": "data/raw/source_products/LITHO1.0.nc",
+      "bytes": 44350156,
+      "sha256": "2fc4753bac2fe3e21146792ff0aa4971630b13807c21e5b35c378aa8af0c0c31"
+    },
+    {
+      "path": "data/raw/source_products/LITHO1.json",
+      "bytes": 39141,
+      "sha256": "1f422c1f03e784090d725ffbf0e7da5876a0c1d2c99bd36a7ca83514955766a2"
+    },
+    {
+      "path": "data/raw/source_products/ne_10m_coastline.dbf",
+      "bytes": 392765,
+      "sha256": "9ccc214342fe400bf8c7d91d7a5b276b0457b0ada03e8d4be16ac5ba13037f3b"
+    },
+    {
+      "path": "data/raw/source_products/ne_10m_coastline.prj",
+      "bytes": 145,
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    },
+    {
+      "path": "data/raw/source_products/ne_10m_coastline.shp",
+      "bytes": 6806860,
+      "sha256": "459a4a97c09db19aadf5244026612de9d43748be27f83a360242b99f7fabb3c1"
+    },
+    {
+      "path": "data/raw/source_products/ne_10m_coastline.shx",
+      "bytes": 33164,
+      "sha256": "f873afee7f56779ce52253f740ec251c2f12244aea911dc40f0a85d75de8d5f2"
+    },
+    {
+      "path": "data/raw/source_products/south_china_sea_heat_flow.csv",
+      "bytes": 108317,
+      "sha256": "857e75f54c0c4fff76cda6a43e0a8f8d500ff2bef1cdcfb32b01c427b6207da9"
+    },
+    {
+      "path": "data/raw/source_products/WGM.json",
+      "bytes": 12888,
+      "sha256": "4fc98944d4304496930451b8b91a5bb309c9dcc62166040595e9722162399696"
+    },
+    {
+      "path": "data/raw/source_products/WGM2012_Bouguer_ponc_2min.grd",
+      "bytes": 233410500,
+      "sha256": "5d974c014b19584f14f47bc4df1c13bd8ba482da8e819112eff8fd5ce6f9f1c1"
+    }
+  ]
+}
