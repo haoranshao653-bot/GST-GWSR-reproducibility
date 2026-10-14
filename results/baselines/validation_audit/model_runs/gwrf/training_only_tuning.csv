@@ -1,3 +1,0 @@
-﻿model,k_neighbors,max_features,min_samples_leaf,anchor_count,tuning_tree_count,training_spatial_anchor_RMSE_log_heat_flow
-gwrf,25,sqrt,1,30,40,0.37369600230758787
-gwrf,50,sqrt,1,30,40,0.377902753395454

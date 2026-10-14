@@ -1,6 +1,6 @@
 # Data-processing workflow
 
-The complete private project includes both source data and the derived model table.
+This repository includes the derived model table and the source products needed to inspect the published data path.
 
 1. `data/raw/source_products/south_china_sea_heat_flow.csv` contains the clipped marine heat-flow source table used for the station filtering stage.
 2. The table is restricted to 105–122°E and 0–25°N, retains offshore records, keeps 20–300 mW m⁻², removes values below 30 mW m⁻², and averages duplicate coordinates. The recorded counts are 1,177 source rows, 1,163 rows after the 30 mW m⁻² threshold, and 1,024 station locations after duplicate averaging.
@@ -15,6 +15,6 @@ The complete private project includes both source data and the derived model tab
      --audit run_outputs/prepare_dataset_audit.json
    ```
 
-5. Compare the rebuilt table with `data/processed/heat_flow_stations.csv`. The latter is the exact table used for the recorded experiments and is included in the private repository for review. The source grids, interpolation libraries, and floating-point versions can produce small last-decimal differences; the recorded table remains the authoritative experiment input.
+5. Compare the rebuilt table with `data/processed/heat_flow_stations.csv`. The latter is the exact table used for the recorded experiments. The source grids, interpolation libraries, and floating-point versions can produce small last-decimal differences; the recorded table remains the authoritative experiment input.
 
 The source products and metadata are kept under `data/raw/source_products/`. Their provider attributions and download records should be preserved when the repository is transferred or later made public.

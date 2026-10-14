@@ -1,9 +1,9 @@
 {
-  "candidates": [20, 25, 30, 35, 40, 45, 50, 55, 60],
+  "candidates": [20, 25, 30, 35, 40, 45, 50, 60],
   "folds": 5,
-  "folding": "training-only spatial/random protocol recorded in results/k_selection_audit",
+  "folding": "training-only random KFold(n_splits=5, shuffle=true, random_state=42)",
   "seeds": [42, 123, 456],
-  "criterion": "pooled mean CV RMSE",
+  "criterion": "mean across the three GP seeds of pooled inner-CV RMSE; exact ties choose smaller k",
   "selected_k": 45,
   "outer_test_used": false,
   "kernel": "adaptive_bisquare",

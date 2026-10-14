@@ -1,5 +1,0 @@
-﻿model,params,mean_test_score,std_test_score,rank_test_score,mean_fit_time,std_fit_time,mean_score_time,mean_spatial_cv_RMSE_log_heat_flow
-random_forest,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",-0.4203564035161223,0.09258993528770249,3,0.5030413468678793,0.018482939611625566,0.017648061116536457,0.4203564035161223
-random_forest,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 2}",-0.4327172743944039,0.0879782294095217,4,0.4781058629353841,0.007293891354904016,0.017326911290486652,0.4327172743944039
-random_forest,"{""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 1}",-0.38554141187269836,0.12371469152344756,1,0.4877304236094157,0.009446872093749253,0.01721032460530599,0.38554141187269836
-random_forest,"{""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 2}",-0.39886753923269797,0.12616012002623858,2,0.4928857485453288,0.00643982108678408,0.017431338628133137,0.39886753923269797

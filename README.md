@@ -1,6 +1,6 @@
 # GST–GWSR reproducibility repository
 
-This repository contains the complete private advisor package for the GST–GWSR marine heat-flow study: source data, processing scripts, the exact derived station table, model code, configurations, figures, and recorded outputs. It is organized for inspection and rerunning rather than for distributing a private desktop workspace.
+This repository contains the reproducibility package for the GST–GWSR marine heat-flow study: source data, the derived station table, the manuscript model code, locked configurations, figures, and recorded outputs. It contains only the final protocol used for the reported results.
 
 The canonical protocol is the protected fixed outer split:
 
@@ -39,7 +39,7 @@ tests/                   Lightweight structural checks
 
 ## Data and Git LFS
 
-The exact model input is `data/processed/heat_flow_stations.csv` with columns `lon`, `lat`, `heat_flow`, `topo`, `bouguer`, `sediment`, `moho`, `lab`, `cpd`, `lithos_km`, and `volcano`. The private advisor version includes this table, the raw/source products, and the processing scripts. Large source rasters are tracked with Git LFS, so a clone must run `git lfs pull`.
+The exact model input is `data/processed/heat_flow_stations.csv` with columns `lon`, `lat`, `heat_flow`, `topo`, `bouguer`, `sediment`, `moho`, `lab`, `cpd`, `lithos_km`, and `volcano`. Large source rasters are tracked with Git LFS, so a clone must run `git lfs pull`.
 
 To reproduce the paper run, obtain the permitted source products, create the derived station table, and validate it:
 
@@ -51,7 +51,7 @@ The validation script checks column names, finite values, positive response valu
 
 ## Environment
 
-The recorded run used Python 3.14 on Windows. Create an isolated environment and install the pinned scientific dependencies:
+The recorded run used Python 3.11.17 on Windows. Create an isolated environment and install the pinned scientific dependencies:
 
 ```powershell
 python -m venv .venv
@@ -70,10 +70,10 @@ python scripts/run_smoke.py
 ## Reproduction order
 
 1. Prepare and validate `data/processed/heat_flow_stations.csv`.
-2. Run the training-only neighbourhood selection. The exact adapter writes to `run_outputs/k_selection` and never uses outer-test responses:
+2. Run the training-only neighbourhood selection with the exact random five-fold adapter. The outer-test responses are not used during selection:
 
    ```powershell
-   python src/gwsr/select_k_exact.py --direct-confirm --direct-k 20 25 30 35 40 45 50 55 60
+   python src/gwsr/exact/run_random5fold.py
    ```
 
 3. Run the training-only `alpha–tau` grid at fixed `k=45`:
@@ -88,13 +88,9 @@ python scripts/run_smoke.py
 
 The recorded results are evidence of one fixed study region and station configuration. They are not a claim of cross-region generalization.
 
-## Sharing with the advisor before submission
-
-Create a private GitHub repository from this directory, add the advisor as a collaborator, and send the repository URL. The private repository is the working review copy; keep the `main` branch at the code and data version used in the manuscript. Before making the repository public after submission or acceptance, review the complete Git history and create a versioned GitHub Release. The publication workflow is described in `docs/publication_workflow.md`.
-
 ## Results and provenance
 
-`results/final_outer/` contains the primary three-seed outer comparison. `results/gwsr_cv_k45/` and `results/k_selection_audit/` contain the training-only selection records and fold-level outputs. `results/supplementary_efficiency/` contains the descriptive cross-`k` efficiency analysis. `results/baselines/validation_audit/` contains the baseline-protocol audit outputs. Every public result should be accompanied by its configuration and code fingerprint; absolute desktop paths in legacy records are retained only in the archived evidence and are not used by the portable adapters.
+`results/final_outer/` contains the primary three-seed outer comparison. `results/gwsr_cv_k45/` contains the exact training-only selection records and fold-level outputs. `results/supplementary_efficiency/` contains the descriptive efficiency analysis. Every reported result is accompanied by its configuration and code fingerprint.
 
 ## License and citation
 

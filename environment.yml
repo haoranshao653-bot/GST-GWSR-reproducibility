@@ -2,10 +2,10 @@ name: gst-gwsr-reproducibility
 channels:
   - conda-forge
 dependencies:
-  - python=3.14
-  - numpy=2.5.4
+  - python=3.11.17
+  - numpy=2.4.6
   - pandas=3.0.6
-  - scipy=1.18.1
+  - scipy=1.17.1
   - scikit-learn=1.9.1
   - joblib=1.6.0
   - matplotlib=3.11.2

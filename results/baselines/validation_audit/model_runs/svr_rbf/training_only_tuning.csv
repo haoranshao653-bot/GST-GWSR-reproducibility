@@ -1,3 +1,0 @@
-﻿model,params,mean_test_score,std_test_score,rank_test_score,mean_fit_time,std_fit_time,mean_score_time,mean_spatial_cv_RMSE_log_heat_flow
-svr_rbf,"{""C"": 1.0, ""epsilon"": 0.05, ""gamma"": ""scale""}",-0.45156000917341493,0.1271113634429172,1,0.005026419957478841,9.368572708852376e-05,0.0018475055694580078,0.45156000917341493
-svr_rbf,"{""C"": 10.0, ""epsilon"": 0.05, ""gamma"": ""scale""}",-0.5071292078038673,0.13972223508925344,2,0.005377928415934245,3.521517652572887e-05,0.001871347427368164,0.5071292078038673
